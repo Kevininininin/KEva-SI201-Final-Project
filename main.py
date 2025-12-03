@@ -100,13 +100,13 @@ def display_flights(filename, max_flights=5):
 
 def main():
     display_weather("weather_2025_Dec_2_Night.json")
-    # display_flights(filename = "flights_2025_Dec_2_Night.json", max_flights = 5)
+    display_flights(filename = "flights_2025_Dec_2_Night.json", max_flights = 5)
 
     display_weather("weather_2025_Dec_3_Morning.json")
-    # display_flights(filename = "flights_2025_Dec_3_Morning.json", max_flights = 5)
+    display_flights(filename = "flights_2025_Dec_3_Morning.json", max_flights = 5)
 
     display_weather("weather_2025_Dec_3_Afternoon.json")
-    # display_flights(filename = "flights_2025_Dec_3_Afternoon.json", max_flights = 5)
+    display_flights(filename = "flights_2025_Dec_3_Afternoon.json", max_flights = 5)
 
 
 if __name__ == "__main__":
