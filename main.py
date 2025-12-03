@@ -55,7 +55,6 @@ def display_weather(filename):
     print("========================\n")
 
 
-
 def display_flights(filename, max_flights=5):
     filepath = os.path.join("aviation_json_raw_data", filename)
 
