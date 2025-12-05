@@ -1,0 +1,59 @@
+{
+  "request": {
+    "type": "City",
+    "query": "New York, United States of America",
+    "language": "en",
+    "unit": "m"
+  },
+  "location": {
+    "name": "New York",
+    "country": "United States of America",
+    "region": "New York",
+    "lat": "40.714",
+    "lon": "-74.006",
+    "timezone_id": "America/New_York",
+    "localtime": "2025-12-05 13:18",
+    "localtime_epoch": 1764940680,
+    "utc_offset": "-5.0"
+  },
+  "current": {
+    "observation_time": "06:18 PM",
+    "temperature": -2,
+    "weather_code": 122,
+    "weather_icons": [
+      "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png"
+    ],
+    "weather_descriptions": [
+      "Overcast"
+    ],
+    "astro": {
+      "sunrise": "07:05 AM",
+      "sunset": "04:28 PM",
+      "moonrise": "04:55 PM",
+      "moonset": "08:09 AM",
+      "moon_phase": "Full Moon",
+      "moon_illumination": 100
+    },
+    "air_quality": {
+      "co": "332.85",
+      "no2": "57.25",
+      "o3": "20",
+      "so2": "10.25",
+      "pm2_5": "13.15",
+      "pm10": "14.55",
+      "us-epa-index": "1",
+      "gb-defra-index": "1"
+    },
+    "wind_speed": 13,
+    "wind_degree": 149,
+    "wind_dir": "SSE",
+    "pressure": 1024,
+    "precip": 0,
+    "humidity": 44,
+    "cloudcover": 100,
+    "feelslike": -7,
+    "uv_index": 1,
+    "visibility": 16,
+    "is_day": "yes"
+  }
+}

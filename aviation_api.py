@@ -24,7 +24,7 @@ if "error" in data:
 # Ensure folder exists
 os.makedirs("aviation_json_raw_data", exist_ok=True)
 
-timestamp = "2025_Dec_4_Night"
+timestamp = "2025_Dec_5_Noon"
 OUTPUT_FILE = f"aviation_json_raw_data/flights_{timestamp}.json"
 
 with open(OUTPUT_FILE, "w") as f:

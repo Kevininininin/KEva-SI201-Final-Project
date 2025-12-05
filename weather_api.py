@@ -28,7 +28,7 @@ if "error" in data:
 os.makedirs("weather_json_raw_data", exist_ok=True)
 
 # Create timestamp-based filename
-timestamp = "2025_Dec_4_Night"
+timestamp = "2025_Dec_5_Noon"
 OUTPUT_FILE = f"weather_json_raw_data/weather_{timestamp}.json"
 
 # Write full JSON response to file
