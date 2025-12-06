@@ -1,0 +1,5772 @@
+{
+  "pagination": {
+    "limit": 100,
+    "offset": 0,
+    "count": 100,
+    "total": 3749
+  },
+  "data": [
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 26,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:26:00+00:00",
+        "estimated_runway": "2025-12-06T06:26:00+00:00",
+        "actual_runway": "2025-12-06T06:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "B",
+        "gate": "151",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T09:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "5049",
+        "iata": "AT5049",
+        "icao": "RAM5049",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "171",
+          "flight_iata": "aa171",
+          "flight_icao": "aal171"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A03235"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 26,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:26:00+00:00",
+        "estimated_runway": "2025-12-06T06:26:00+00:00",
+        "actual_runway": "2025-12-06T06:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "B",
+        "gate": "151",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T09:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "1905",
+        "iata": "BA1905",
+        "icao": "BAW1905",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "171",
+          "flight_iata": "aa171",
+          "flight_icao": "aal171"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A03235"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 26,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:26:00+00:00",
+        "estimated_runway": "2025-12-06T06:26:00+00:00",
+        "actual_runway": "2025-12-06T06:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "B",
+        "gate": "151",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T09:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3212",
+        "iata": "QF3212",
+        "icao": "QFA3212",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "171",
+          "flight_iata": "aa171",
+          "flight_icao": "aal171"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A03235"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 26,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:26:00+00:00",
+        "estimated_runway": "2025-12-06T06:26:00+00:00",
+        "actual_runway": "2025-12-06T06:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "B",
+        "gate": "151",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T09:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "9369",
+        "iata": "QR9369",
+        "icao": "QTR9369",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "171",
+          "flight_iata": "aa171",
+          "flight_icao": "aal171"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A03235"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 26,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:26:00+00:00",
+        "estimated_runway": "2025-12-06T06:26:00+00:00",
+        "actual_runway": "2025-12-06T06:26:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "B",
+        "gate": "151",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T09:19:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Tahiti Nui",
+        "iata": "TN",
+        "icao": "THT"
+      },
+      "flight": {
+        "number": "1307",
+        "iata": "TN1307",
+        "icao": "THT1307",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "171",
+          "flight_iata": "aa171",
+          "flight_icao": "aal171"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A03235"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "46",
+        "delay": 9,
+        "scheduled": "2025-12-06T06:30:00+00:00",
+        "estimated": "2025-12-06T06:30:00+00:00",
+        "actual": "2025-12-06T06:38:00+00:00",
+        "estimated_runway": "2025-12-06T06:38:00+00:00",
+        "actual_runway": "2025-12-06T06:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T10:07:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:44:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "5037",
+        "iata": "AT5037",
+        "icao": "RAM5037",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "76",
+          "flight_iata": "aa76",
+          "flight_icao": "aal76"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A04641"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "46",
+        "delay": 9,
+        "scheduled": "2025-12-06T06:30:00+00:00",
+        "estimated": "2025-12-06T06:30:00+00:00",
+        "actual": "2025-12-06T06:38:00+00:00",
+        "estimated_runway": "2025-12-06T06:38:00+00:00",
+        "actual_runway": "2025-12-06T06:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T10:07:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:44:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "4713",
+        "iata": "BA4713",
+        "icao": "BAW4713",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "76",
+          "flight_iata": "aa76",
+          "flight_icao": "aal76"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A04641"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "46",
+        "delay": 9,
+        "scheduled": "2025-12-06T06:30:00+00:00",
+        "estimated": "2025-12-06T06:30:00+00:00",
+        "actual": "2025-12-06T06:38:00+00:00",
+        "estimated_runway": "2025-12-06T06:38:00+00:00",
+        "actual_runway": "2025-12-06T06:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T10:07:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:44:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7575",
+        "iata": "JL7575",
+        "icao": "JTL7575",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "76",
+          "flight_iata": "aa76",
+          "flight_icao": "aal76"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A04641"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "46",
+        "delay": 9,
+        "scheduled": "2025-12-06T06:30:00+00:00",
+        "estimated": "2025-12-06T06:30:00+00:00",
+        "actual": "2025-12-06T06:38:00+00:00",
+        "estimated_runway": "2025-12-06T06:38:00+00:00",
+        "actual_runway": "2025-12-06T06:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T10:07:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:44:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3074",
+        "iata": "QF3074",
+        "icao": "QFA3074",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "76",
+          "flight_iata": "aa76",
+          "flight_icao": "aal76"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A04641"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "46",
+        "delay": 9,
+        "scheduled": "2025-12-06T06:30:00+00:00",
+        "estimated": "2025-12-06T06:30:00+00:00",
+        "actual": "2025-12-06T06:38:00+00:00",
+        "estimated_runway": "2025-12-06T06:38:00+00:00",
+        "actual_runway": "2025-12-06T06:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T10:07:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:44:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "9364",
+        "iata": "QR9364",
+        "icao": "QTR9364",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "76",
+          "flight_iata": "aa76",
+          "flight_icao": "aal76"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A04641"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "512",
+        "delay": 44,
+        "scheduled": "2025-12-06T06:59:00+00:00",
+        "estimated": "2025-12-06T06:59:00+00:00",
+        "actual": "2025-12-06T07:43:00+00:00",
+        "estimated_runway": "2025-12-06T07:43:00+00:00",
+        "actual_runway": "2025-12-06T07:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "1",
+        "gate": "14",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:20:00+00:00",
+        "delay": 2,
+        "estimated": "2025-12-06T10:22:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2003",
+        "iata": "HA2003",
+        "icao": "HAL2003",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "523",
+          "flight_iata": "b6523",
+          "flight_icao": "jbu523"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AD2445"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "512",
+        "delay": 44,
+        "scheduled": "2025-12-06T06:59:00+00:00",
+        "estimated": "2025-12-06T06:59:00+00:00",
+        "actual": "2025-12-06T07:43:00+00:00",
+        "estimated_runway": "2025-12-06T07:43:00+00:00",
+        "actual_runway": "2025-12-06T07:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "1",
+        "gate": "14",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:20:00+00:00",
+        "delay": 2,
+        "estimated": "2025-12-06T10:22:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Singapore Airlines",
+        "iata": "SQ",
+        "icao": "SIA"
+      },
+      "flight": {
+        "number": "1527",
+        "iata": "SQ1527",
+        "icao": "SIA1527",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "523",
+          "flight_iata": "b6523",
+          "flight_icao": "jbu523"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AD2445"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "512",
+        "delay": 44,
+        "scheduled": "2025-12-06T06:59:00+00:00",
+        "estimated": "2025-12-06T06:59:00+00:00",
+        "actual": "2025-12-06T07:43:00+00:00",
+        "estimated_runway": "2025-12-06T07:43:00+00:00",
+        "actual_runway": "2025-12-06T07:43:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "1",
+        "gate": "14",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:20:00+00:00",
+        "delay": 2,
+        "estimated": "2025-12-06T10:22:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "TAP Air Portugal",
+        "iata": "TP",
+        "icao": "TAP"
+      },
+      "flight": {
+        "number": "4581",
+        "iata": "TP4581",
+        "icao": "TAP4581",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "523",
+          "flight_iata": "b6523",
+          "flight_icao": "jbu523"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AD2445"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 13,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:13:00+00:00",
+        "estimated_runway": "2025-12-06T07:13:00+00:00",
+        "actual_runway": "2025-12-06T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "46C",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T10:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "5034",
+        "iata": "AT5034",
+        "icao": "RAM5034",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1",
+          "flight_iata": "aa1",
+          "flight_icao": "aal1"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0275C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 13,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:13:00+00:00",
+        "estimated_runway": "2025-12-06T07:13:00+00:00",
+        "actual_runway": "2025-12-06T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "46C",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T10:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "4688",
+        "iata": "BA4688",
+        "icao": "BAW4688",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1",
+          "flight_iata": "aa1",
+          "flight_icao": "aal1"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0275C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 13,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:13:00+00:00",
+        "estimated_runway": "2025-12-06T07:13:00+00:00",
+        "actual_runway": "2025-12-06T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "46C",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T10:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7515",
+        "iata": "JL7515",
+        "icao": "JTL7515",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1",
+          "flight_iata": "aa1",
+          "flight_icao": "aal1"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0275C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 13,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:13:00+00:00",
+        "estimated_runway": "2025-12-06T07:13:00+00:00",
+        "actual_runway": "2025-12-06T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "46C",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T10:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3100",
+        "iata": "QF3100",
+        "icao": "QFA3100",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1",
+          "flight_iata": "aa1",
+          "flight_icao": "aal1"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0275C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 13,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:13:00+00:00",
+        "estimated_runway": "2025-12-06T07:13:00+00:00",
+        "actual_runway": "2025-12-06T07:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "46C",
+        "baggage": "T4C3",
+        "scheduled": "2025-12-06T10:21:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Tahiti Nui",
+        "iata": "TN",
+        "icao": "THT"
+      },
+      "flight": {
+        "number": "1101",
+        "iata": "TN1101",
+        "icao": "THT1101",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "1",
+          "flight_iata": "aa1",
+          "flight_icao": "aal1"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0275C"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "34",
+        "delay": 47,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:46:00+00:00",
+        "estimated_runway": "2025-12-06T07:46:00+00:00",
+        "actual_runway": "2025-12-06T07:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "D2",
+        "baggage": "11",
+        "scheduled": "2025-12-06T10:28:00+00:00",
+        "delay": 5,
+        "estimated": "2025-12-06T10:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Condor",
+        "iata": "DE",
+        "icao": "CFG"
+      },
+      "flight": {
+        "number": "5068",
+        "iata": "DE5068",
+        "icao": "CFG5068",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "21",
+          "flight_iata": "as21",
+          "flight_icao": "asa21"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A9873D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "34",
+        "delay": 47,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:46:00+00:00",
+        "estimated_runway": "2025-12-06T07:46:00+00:00",
+        "actual_runway": "2025-12-06T07:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "D2",
+        "baggage": "11",
+        "scheduled": "2025-12-06T10:28:00+00:00",
+        "delay": 5,
+        "estimated": "2025-12-06T10:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "4991",
+        "iata": "HA4991",
+        "icao": "HAL4991",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "21",
+          "flight_iata": "as21",
+          "flight_icao": "asa21"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A9873D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "47",
+        "delay": 24,
+        "scheduled": "2025-12-06T08:46:00+00:00",
+        "estimated": "2025-12-06T08:46:00+00:00",
+        "actual": "2025-12-06T09:09:00+00:00",
+        "estimated_runway": "2025-12-06T09:09:00+00:00",
+        "actual_runway": "2025-12-06T09:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T14:20:00+00:00",
+        "delay": 16,
+        "estimated": "2025-12-06T14:36:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "829",
+        "iata": "HA829",
+        "icao": "HAL829",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A46E8D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": null,
+        "gate": null,
+        "delay": 27,
+        "scheduled": "2025-12-06T08:46:00+00:00",
+        "estimated": "2025-12-06T08:46:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T14:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Alaska Airlines",
+        "iata": "AS",
+        "icao": "ASA"
+      },
+      "flight": {
+        "number": "829",
+        "iata": "AS829",
+        "icao": "ASA829",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N385HA",
+        "iata": "A332",
+        "icao": "A332",
+        "icao24": "A46E8D"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:18+00:00",
+        "latitude": 42.2596,
+        "longitude": -100.249,
+        "altitude": 10972.8,
+        "direction": 259,
+        "speed_horizontal": 777.84,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "18",
+        "delay": 21,
+        "scheduled": "2025-12-06T09:00:00+00:00",
+        "estimated": "2025-12-06T09:00:00+00:00",
+        "actual": "2025-12-06T09:20:00+00:00",
+        "estimated_runway": "2025-12-06T09:20:00+00:00",
+        "actual_runway": "2025-12-06T09:20:00+00:00"
+      },
+      "arrival": {
+        "airport": "Hong Kong International",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T14:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T13:28:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Cathay Pacific",
+        "iata": "CX",
+        "icao": "CPA"
+      },
+      "flight": {
+        "number": "841",
+        "iata": "CX841",
+        "icao": "CPA841",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "B-LRX",
+        "iata": "A359",
+        "icao": "A359",
+        "icao24": "789204"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:24+00:00",
+        "latitude": 65.2152,
+        "longitude": -65.0826,
+        "altitude": 10668,
+        "direction": 0,
+        "speed_horizontal": 907.48,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "34",
+        "delay": 47,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:46:00+00:00",
+        "estimated_runway": "2025-12-06T07:46:00+00:00",
+        "actual_runway": "2025-12-06T07:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "D2",
+        "baggage": "11",
+        "scheduled": "2025-12-06T10:28:00+00:00",
+        "delay": 5,
+        "estimated": "2025-12-06T10:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "3314",
+        "iata": "QR3314",
+        "icao": "QTR3314",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "21",
+          "flight_iata": "as21",
+          "flight_icao": "asa21"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A9873D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "34",
+        "delay": 47,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:46:00+00:00",
+        "estimated_runway": "2025-12-06T07:46:00+00:00",
+        "actual_runway": "2025-12-06T07:46:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "D2",
+        "baggage": "11",
+        "scheduled": "2025-12-06T10:28:00+00:00",
+        "delay": 5,
+        "estimated": "2025-12-06T10:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air Tahiti Nui",
+        "iata": "TN",
+        "icao": "THT"
+      },
+      "flight": {
+        "number": "2586",
+        "iata": "TN2586",
+        "icao": "THT2586",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "21",
+          "flight_iata": "as21",
+          "flight_icao": "asa21"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A9873D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 9,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:08:00+00:00",
+        "estimated_runway": "2025-12-06T07:08:00+00:00",
+        "actual_runway": "2025-12-06T07:08:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:35:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "7558",
+        "iata": "KL7558",
+        "icao": "KLM7558",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "668",
+          "flight_iata": "dl668",
+          "flight_icao": "dal668"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0F4A2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 9,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:08:00+00:00",
+        "estimated_runway": "2025-12-06T07:08:00+00:00",
+        "actual_runway": "2025-12-06T07:08:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:35:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6335",
+        "iata": "LA6335",
+        "icao": "LAN6335",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "668",
+          "flight_iata": "dl668",
+          "flight_icao": "dal668"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0F4A2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 9,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:08:00+00:00",
+        "estimated_runway": "2025-12-06T07:08:00+00:00",
+        "actual_runway": "2025-12-06T07:08:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:35:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4745",
+        "iata": "VS4745",
+        "icao": "VIR4745",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "668",
+          "flight_iata": "dl668",
+          "flight_icao": "dal668"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0F4A2"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B31",
+        "delay": 35,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:34:00+00:00",
+        "estimated_runway": "2025-12-06T07:34:00+00:00",
+        "actual_runway": "2025-12-06T07:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "A2",
+        "baggage": "2",
+        "scheduled": "2025-12-06T10:26:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "3030",
+        "iata": "KE3030",
+        "icao": "KAL3030",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "699",
+          "flight_iata": "dl699",
+          "flight_icao": "dal699"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A7816A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B31",
+        "delay": 35,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:34:00+00:00",
+        "estimated_runway": "2025-12-06T07:34:00+00:00",
+        "actual_runway": "2025-12-06T07:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "A2",
+        "baggage": "2",
+        "scheduled": "2025-12-06T10:26:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "7846",
+        "iata": "KL7846",
+        "icao": "KLM7846",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "699",
+          "flight_iata": "dl699",
+          "flight_icao": "dal699"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A7816A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B31",
+        "delay": 35,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:34:00+00:00",
+        "estimated_runway": "2025-12-06T07:34:00+00:00",
+        "actual_runway": "2025-12-06T07:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "A2",
+        "baggage": "2",
+        "scheduled": "2025-12-06T10:26:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6159",
+        "iata": "LA6159",
+        "icao": "LAN6159",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "699",
+          "flight_iata": "dl699",
+          "flight_icao": "dal699"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A7816A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B31",
+        "delay": 35,
+        "scheduled": "2025-12-06T07:00:00+00:00",
+        "estimated": "2025-12-06T07:00:00+00:00",
+        "actual": "2025-12-06T07:34:00+00:00",
+        "estimated_runway": "2025-12-06T07:34:00+00:00",
+        "actual_runway": "2025-12-06T07:34:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seattle-Tacoma International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "terminal": null,
+        "gate": "A2",
+        "baggage": "2",
+        "scheduled": "2025-12-06T10:26:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4749",
+        "iata": "VS4749",
+        "icao": "VIR4749",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "699",
+          "flight_iata": "dl699",
+          "flight_icao": "dal699"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A7816A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 14,
+        "scheduled": "2025-12-06T09:55:00+00:00",
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": "2025-12-06T10:09:00+00:00",
+        "estimated_runway": "2025-12-06T10:09:00+00:00",
+        "actual_runway": "2025-12-06T10:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "2",
+        "gate": "E4",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:08:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T15:36:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "636",
+        "iata": "DL636",
+        "icao": "DAL636",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N194DN",
+        "iata": "B763",
+        "icao": "B763",
+        "icao24": "A1775F"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:17+00:00",
+        "latitude": 44.2897,
+        "longitude": -90.7517,
+        "altitude": 9761.22,
+        "direction": 272,
+        "speed_horizontal": 716.724,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "16",
+        "delay": 60,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Haneda Airport",
+        "timezone": "Asia/Tokyo",
+        "iata": "HND",
+        "icao": "RJTT",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T14:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "167",
+        "iata": "AA167",
+        "icao": "AAL167",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N823AN",
+        "iata": "B789",
+        "icao": "B789",
+        "icao24": "AB3C0D"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:17+00:00",
+        "latitude": 45.9915,
+        "longitude": -73.7932,
+        "altitude": 10058.4,
+        "direction": 348,
+        "speed_horizontal": 903.776,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": null,
+        "delay": 32,
+        "scheduled": "2025-12-06T10:05:00+00:00",
+        "estimated": "2025-12-06T10:05:00+00:00",
+        "actual": "2025-12-06T10:37:00+00:00",
+        "estimated_runway": "2025-12-06T10:37:00+00:00",
+        "actual_runway": "2025-12-06T10:37:00+00:00"
+      },
+      "arrival": {
+        "airport": "Chhatrapati Shivaji International (Sahar International)",
+        "timezone": "Asia/Kolkata",
+        "iata": "BOM",
+        "icao": "VABB",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T11:10:00+00:00",
+        "delay": 12,
+        "estimated": "2025-12-07T11:22:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      },
+      "flight": {
+        "number": "116",
+        "iata": "AI116",
+        "icao": "AIC116",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-AEM",
+        "iata": "B77W",
+        "icao": "B77W",
+        "icao24": "8015A5"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:41+00:00",
+        "latitude": 43.0911,
+        "longitude": -52.5503,
+        "altitude": 8839.2,
+        "direction": 89,
+        "speed_horizontal": 1113.05,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": null,
+        "gate": null,
+        "delay": 34,
+        "scheduled": "2025-12-06T06:00:00+00:00",
+        "estimated": "2025-12-06T06:00:00+00:00",
+        "actual": "2025-12-06T06:33:00+00:00",
+        "estimated_runway": "2025-12-06T06:33:00+00:00",
+        "actual_runway": "2025-12-06T06:33:00+00:00"
+      },
+      "arrival": {
+        "airport": "Municipal",
+        "timezone": "America/New_York",
+        "iata": "LAL",
+        "icao": "KLAL",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T08:47:00+00:00",
+        "delay": 9,
+        "estimated": "2025-12-06T08:56:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "ATI",
+        "iata": "8C",
+        "icao": "ATN"
+      },
+      "flight": {
+        "number": "3325",
+        "iata": "8C3325",
+        "icao": "ATN3325",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "N617AZ",
+        "iata": "B763",
+        "icao": "B763",
+        "icao24": "A808D7"
+      },
+      "live": {
+        "updated": "2025-12-06T14:04:48+00:00",
+        "latitude": 28.4709,
+        "longitude": -82.1446,
+        "altitude": 2735.58,
+        "direction": 199,
+        "speed_horizontal": 474.112,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "12",
+        "delay": 43,
+        "scheduled": "2025-12-06T10:20:00+00:00",
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": "2025-12-06T11:02:00+00:00",
+        "estimated_runway": "2025-12-06T11:02:00+00:00",
+        "actual_runway": "2025-12-06T11:02:00+00:00"
+      },
+      "arrival": {
+        "airport": "Doha International",
+        "timezone": "Asia/Qatar",
+        "iata": "DOH",
+        "icao": "OTHH",
+        "terminal": null,
+        "gate": null,
+        "baggage": "8",
+        "scheduled": "2025-12-07T06:40:00+00:00",
+        "delay": 10,
+        "estimated": "2025-12-07T06:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "704",
+        "iata": "QR704",
+        "icao": "QTR704",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "A7-BEL",
+        "iata": "B77W",
+        "icao": "B77W",
+        "icao24": "06A2B0"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:41+00:00",
+        "latitude": 42.6267,
+        "longitude": -57.4427,
+        "altitude": 9448.8,
+        "direction": 58,
+        "speed_horizontal": 1137.13,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": null,
+        "delay": 30,
+        "scheduled": "2025-12-06T10:40:00+00:00",
+        "estimated": "2025-12-06T10:40:00+00:00",
+        "actual": "2025-12-06T11:09:00+00:00",
+        "estimated_runway": "2025-12-06T11:09:00+00:00",
+        "actual_runway": "2025-12-06T11:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Dubai",
+        "timezone": "Asia/Dubai",
+        "iata": "DXB",
+        "icao": "OMDB",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T08:10:00+00:00",
+        "delay": 149,
+        "estimated": "2025-12-07T08:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      },
+      "flight": {
+        "number": "204",
+        "iata": "EK204",
+        "icao": "UAE204",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "A6-EOE",
+        "iata": "A388",
+        "icao": "A388",
+        "icao24": "89639E"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:36+00:00",
+        "latitude": 45.3075,
+        "longitude": -61.489,
+        "altitude": 10675.6,
+        "direction": 68,
+        "speed_horizontal": 1077.86,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": null,
+        "delay": 28,
+        "scheduled": "2025-12-06T10:55:00+00:00",
+        "estimated": "2025-12-06T10:55:00+00:00",
+        "actual": "2025-12-06T11:22:00+00:00",
+        "estimated_runway": "2025-12-06T11:22:00+00:00",
+        "actual_runway": "2025-12-06T11:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Indira Gandhi International",
+        "timezone": "Asia/Kolkata",
+        "iata": "DEL",
+        "icao": "VIDP",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T12:20:00+00:00",
+        "delay": 3,
+        "estimated": "2025-12-07T12:23:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      },
+      "flight": {
+        "number": "102",
+        "iata": "AI102",
+        "icao": "AIC102",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "VT-JRF",
+        "iata": "A359",
+        "icao": "A359",
+        "icao24": "801659"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:44+00:00",
+        "latitude": 42.7619,
+        "longitude": -62.5279,
+        "altitude": 10668,
+        "direction": 81,
+        "speed_horizontal": 1116.76,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "2",
+        "delay": 19,
+        "scheduled": "2025-12-06T11:00:00+00:00",
+        "estimated": "2025-12-06T11:00:00+00:00",
+        "actual": "2025-12-06T11:19:00+00:00",
+        "estimated_runway": "2025-12-06T11:19:00+00:00",
+        "actual_runway": "2025-12-06T11:19:00+00:00"
+      },
+      "arrival": {
+        "airport": "King Khaled International",
+        "timezone": "Asia/Riyadh",
+        "iata": "RUH",
+        "icao": "OERK",
+        "terminal": "4",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T07:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T06:29:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Saudia",
+        "iata": "SV",
+        "icao": "SVA"
+      },
+      "flight": {
+        "number": "22",
+        "iata": "SV22",
+        "icao": "SVA22",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HZ-AK43",
+        "iata": "B77W",
+        "icao": "B77W",
+        "icao24": "710121"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:43+00:00",
+        "latitude": 42.8404,
+        "longitude": -61.0974,
+        "altitude": 9448.8,
+        "direction": 78,
+        "speed_horizontal": 1096.38,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": null,
+        "gate": null,
+        "delay": 2,
+        "scheduled": "2025-12-06T04:25:00+00:00",
+        "estimated": "2025-12-06T04:25:00+00:00",
+        "actual": "2025-12-06T04:27:00+00:00",
+        "estimated_runway": "2025-12-06T04:27:00+00:00",
+        "actual_runway": "2025-12-06T04:27:00+00:00"
+      },
+      "arrival": {
+        "airport": "Guangzhou Baiyun International",
+        "timezone": "Asia/Shanghai",
+        "iata": "CAN",
+        "icao": "ZGGG",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T09:09:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T08:57:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "China Southern Airlines",
+        "iata": "CZ",
+        "icao": "CSN"
+      },
+      "flight": {
+        "number": "2544",
+        "iata": "CZ2544",
+        "icao": "CSN2544",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "7800EB"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "8",
+        "delay": 30,
+        "scheduled": "2025-12-06T11:10:00+00:00",
+        "estimated": "2025-12-06T11:10:00+00:00",
+        "actual": "2025-12-06T11:39:00+00:00",
+        "estimated_runway": "2025-12-06T11:39:00+00:00",
+        "actual_runway": "2025-12-06T11:39:00+00:00"
+      },
+      "arrival": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "1",
+        "gate": "23",
+        "baggage": "2",
+        "scheduled": "2025-12-07T17:05:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T16:51:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Asiana Airlines",
+        "iata": "OZ",
+        "icao": "AAR"
+      },
+      "flight": {
+        "number": "221",
+        "iata": "OZ221",
+        "icao": "AAR221",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HL8361",
+        "iata": "A359",
+        "icao": "A359",
+        "icao24": "71C361"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:16+00:00",
+        "latitude": 44.9242,
+        "longitude": -73.8643,
+        "altitude": 10363.2,
+        "direction": 348,
+        "speed_horizontal": 885.256,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": null,
+        "delay": null,
+        "scheduled": "2025-12-06T12:00:00+00:00",
+        "estimated": "2025-12-06T12:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Tashkent International",
+        "timezone": "Asia/Tashkent",
+        "iata": "TAS",
+        "icao": "UZTT",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T10:00:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Uzbekistan Airways",
+        "iata": "HY",
+        "icao": "UZB"
+      },
+      "flight": {
+        "number": "102",
+        "iata": "HY102",
+        "icao": "UZB102",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "XXB",
+        "iata": "B788",
+        "icao": "B788",
+        "icao24": "507C59"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:16+00:00",
+        "latitude": 41.0619,
+        "longitude": -73.3878,
+        "altitude": 5859.78,
+        "direction": 30,
+        "speed_horizontal": 833.4,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "5",
+        "delay": 11,
+        "scheduled": "2025-12-06T12:00:00+00:00",
+        "estimated": "2025-12-06T12:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Seoul (Incheon)",
+        "timezone": "Asia/Seoul",
+        "iata": "ICN",
+        "icao": "RKSI",
+        "terminal": "2",
+        "gate": "266",
+        "baggage": "14",
+        "scheduled": "2025-12-07T17:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "82",
+        "iata": "KE82",
+        "icao": "KAL82",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "HL7621",
+        "iata": "A388",
+        "icao": "A388",
+        "icao24": "71BE21"
+      },
+      "live": {
+        "updated": "2025-12-06T17:19:14+00:00",
+        "latitude": 40.6287,
+        "longitude": -73.7732,
+        "altitude": 0,
+        "direction": 300,
+        "speed_horizontal": 29.632,
+        "speed_vertical": 0,
+        "is_ground": true
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "8",
+        "delay": 19,
+        "scheduled": "2025-12-06T12:40:00+00:00",
+        "estimated": "2025-12-06T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Haneda Airport",
+        "timezone": "Asia/Tokyo",
+        "iata": "HND",
+        "icao": "RJTT",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T17:15:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JAL"
+      },
+      "flight": {
+        "number": "5",
+        "iata": "JL5",
+        "icao": "JAL5",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": "JA07WJ",
+        "iata": "A35K",
+        "icao": "A35K",
+        "icao24": "841C48"
+      },
+      "live": {
+        "updated": "2025-12-06T17:23:12+00:00",
+        "latitude": 48.9173,
+        "longitude": 157.764,
+        "altitude": 11887.2,
+        "direction": 232,
+        "speed_horizontal": 866.736,
+        "speed_vertical": 0,
+        "is_ground": false
+      }
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "1",
+        "gate": "3",
+        "delay": 30,
+        "scheduled": "2025-12-06T12:50:00+00:00",
+        "estimated": "2025-12-06T12:50:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Istanbul Airport",
+        "timezone": "Europe/Istanbul",
+        "iata": "IST",
+        "icao": "LTFM",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T06:45:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Turkish Airlines",
+        "iata": "TK",
+        "icao": "THY"
+      },
+      "flight": {
+        "number": "4",
+        "iata": "TK4",
+        "icao": "THY4",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4BB187"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "31",
+        "delay": null,
+        "scheduled": "2025-12-06T13:00:00+00:00",
+        "estimated": "2025-12-06T13:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B14",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:50:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Alaska Airlines",
+        "iata": "AS",
+        "icao": "ASA"
+      },
+      "flight": {
+        "number": "227",
+        "iata": "AS227",
+        "icao": "ASA227",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A262AD"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "508",
+        "delay": 20,
+        "scheduled": "2025-12-06T13:00:00+00:00",
+        "estimated": "2025-12-06T13:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B3",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:37:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "115",
+        "iata": "B6115",
+        "icao": "JBU115",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AD7AB8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "7",
+        "gate": null,
+        "delay": 13,
+        "scheduled": "2025-12-06T13:05:00+00:00",
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Haneda Airport",
+        "timezone": "Asia/Tokyo",
+        "iata": "HND",
+        "icao": "RJTT",
+        "terminal": "2",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T17:40:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "ANA",
+        "iata": "NH",
+        "icao": "ANA"
+      },
+      "flight": {
+        "number": "109",
+        "iata": "NH109",
+        "icao": "ANA109",
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B30",
+        "delay": 18,
+        "scheduled": "2025-12-06T07:05:00+00:00",
+        "estimated": "2025-12-06T07:05:00+00:00",
+        "actual": "2025-12-06T07:22:00+00:00",
+        "estimated_runway": "2025-12-06T07:22:00+00:00",
+        "actual_runway": "2025-12-06T07:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "30A",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:01:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aeromexico",
+        "iata": "AM",
+        "icao": "AMX"
+      },
+      "flight": {
+        "number": "4370",
+        "iata": "AM4370",
+        "icao": "AMX4370",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "742",
+          "flight_iata": "dl742",
+          "flight_icao": "dal742"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A15EBC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B30",
+        "delay": 18,
+        "scheduled": "2025-12-06T07:05:00+00:00",
+        "estimated": "2025-12-06T07:05:00+00:00",
+        "actual": "2025-12-06T07:22:00+00:00",
+        "estimated_runway": "2025-12-06T07:22:00+00:00",
+        "actual_runway": "2025-12-06T07:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "30A",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:01:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "7815",
+        "iata": "KL7815",
+        "icao": "KLM7815",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "742",
+          "flight_iata": "dl742",
+          "flight_icao": "dal742"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A15EBC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B30",
+        "delay": 18,
+        "scheduled": "2025-12-06T07:05:00+00:00",
+        "estimated": "2025-12-06T07:05:00+00:00",
+        "actual": "2025-12-06T07:22:00+00:00",
+        "estimated_runway": "2025-12-06T07:22:00+00:00",
+        "actual_runway": "2025-12-06T07:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "30A",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:01:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6662",
+        "iata": "LA6662",
+        "icao": "LAN6662",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "742",
+          "flight_iata": "dl742",
+          "flight_icao": "dal742"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A15EBC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B30",
+        "delay": 18,
+        "scheduled": "2025-12-06T07:05:00+00:00",
+        "estimated": "2025-12-06T07:05:00+00:00",
+        "actual": "2025-12-06T07:22:00+00:00",
+        "estimated_runway": "2025-12-06T07:22:00+00:00",
+        "actual_runway": "2025-12-06T07:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "30A",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:30:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:01:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4773",
+        "iata": "VS4773",
+        "icao": "VIR4773",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "742",
+          "flight_iata": "dl742",
+          "flight_icao": "dal742"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A15EBC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B28",
+        "delay": null,
+        "scheduled": "2025-12-06T13:15:00+00:00",
+        "estimated": "2025-12-06T13:15:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:43:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "363",
+        "iata": "DL363",
+        "icao": "DAL363",
+        "codeshared": null
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A173A8"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "32",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:00:00+00:00",
+        "estimated": "2025-12-06T08:00:00+00:00",
+        "actual": "2025-12-06T08:13:00+00:00",
+        "estimated_runway": "2025-12-06T08:13:00+00:00",
+        "actual_runway": "2025-12-06T08:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:12:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "5040",
+        "iata": "AT5040",
+        "icao": "RAM5040",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "179",
+          "flight_iata": "aa179",
+          "flight_icao": "aal179"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0428A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "32",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:00:00+00:00",
+        "estimated": "2025-12-06T08:00:00+00:00",
+        "actual": "2025-12-06T08:13:00+00:00",
+        "estimated_runway": "2025-12-06T08:13:00+00:00",
+        "actual_runway": "2025-12-06T08:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:12:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "4714",
+        "iata": "BA4714",
+        "icao": "BAW4714",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "179",
+          "flight_iata": "aa179",
+          "flight_icao": "aal179"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0428A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "32",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:00:00+00:00",
+        "estimated": "2025-12-06T08:00:00+00:00",
+        "actual": "2025-12-06T08:13:00+00:00",
+        "estimated_runway": "2025-12-06T08:13:00+00:00",
+        "actual_runway": "2025-12-06T08:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:12:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Gol",
+        "iata": "G3",
+        "icao": "GLO"
+      },
+      "flight": {
+        "number": "6030",
+        "iata": "G36030",
+        "icao": "GLO6030",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "179",
+          "flight_iata": "aa179",
+          "flight_icao": "aal179"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0428A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "32",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:00:00+00:00",
+        "estimated": "2025-12-06T08:00:00+00:00",
+        "actual": "2025-12-06T08:13:00+00:00",
+        "estimated_runway": "2025-12-06T08:13:00+00:00",
+        "actual_runway": "2025-12-06T08:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:12:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7545",
+        "iata": "JL7545",
+        "icao": "JTL7545",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "179",
+          "flight_iata": "aa179",
+          "flight_icao": "aal179"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0428A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "32",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:00:00+00:00",
+        "estimated": "2025-12-06T08:00:00+00:00",
+        "actual": "2025-12-06T08:13:00+00:00",
+        "estimated_runway": "2025-12-06T08:13:00+00:00",
+        "actual_runway": "2025-12-06T08:13:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B26",
+        "baggage": "5",
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:12:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3088",
+        "iata": "QF3088",
+        "icao": "QFA3088",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "179",
+          "flight_iata": "aa179",
+          "flight_icao": "aal179"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A0428A"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B53",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:19:00+00:00",
+        "estimated_runway": "2025-12-06T08:19:00+00:00",
+        "actual_runway": "2025-12-06T08:19:00+00:00"
+      },
+      "arrival": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A53",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:48:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:16:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6451",
+        "iata": "LA6451",
+        "icao": "LAN6451",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2294",
+          "flight_iata": "dl2294",
+          "flight_icao": "dal2294"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "ACC23F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B53",
+        "delay": 14,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:19:00+00:00",
+        "estimated_runway": "2025-12-06T08:19:00+00:00",
+        "actual_runway": "2025-12-06T08:19:00+00:00"
+      },
+      "arrival": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": "A53",
+        "baggage": null,
+        "scheduled": "2025-12-06T10:48:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:16:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "3275",
+        "iata": "VS3275",
+        "icao": "VIR3275",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "2294",
+          "flight_iata": "dl2294",
+          "flight_icao": "dal2294"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "ACC23F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:30:00+00:00",
+        "estimated_runway": "2025-12-06T08:30:00+00:00",
+        "actual_runway": "2025-12-06T08:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aer Lingus",
+        "iata": "EI",
+        "icao": "EIN"
+      },
+      "flight": {
+        "number": "8878",
+        "iata": "EI8878",
+        "icao": "EIN8878",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "178",
+          "flight_iata": "ba178",
+          "flight_icao": "baw178"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4005BC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:30:00+00:00",
+        "estimated_runway": "2025-12-06T08:30:00+00:00",
+        "actual_runway": "2025-12-06T08:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Finnair",
+        "iata": "AY",
+        "icao": "FIN"
+      },
+      "flight": {
+        "number": "5478",
+        "iata": "AY5478",
+        "icao": "FIN5478",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "178",
+          "flight_iata": "ba178",
+          "flight_icao": "baw178"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4005BC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:30:00+00:00",
+        "estimated_runway": "2025-12-06T08:30:00+00:00",
+        "actual_runway": "2025-12-06T08:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Iberia",
+        "iata": "IB",
+        "icao": "IBE"
+      },
+      "flight": {
+        "number": "3564",
+        "iata": "IB3564",
+        "icao": "IBE3564",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "178",
+          "flight_iata": "ba178",
+          "flight_icao": "baw178"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4005BC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:30:00+00:00",
+        "estimated_runway": "2025-12-06T08:30:00+00:00",
+        "actual_runway": "2025-12-06T08:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "American Airlines",
+        "iata": "AA",
+        "icao": "AAL"
+      },
+      "flight": {
+        "number": "6939",
+        "iata": "AA6939",
+        "icao": "AAL6939",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "178",
+          "flight_iata": "ba178",
+          "flight_icao": "baw178"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4005BC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": null,
+        "delay": 25,
+        "scheduled": "2025-12-06T08:05:00+00:00",
+        "estimated": "2025-12-06T08:05:00+00:00",
+        "actual": "2025-12-06T08:30:00+00:00",
+        "estimated_runway": "2025-12-06T08:30:00+00:00",
+        "actual_runway": "2025-12-06T08:30:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "5",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:00:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:35:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "AlphaSky",
+        "iata": "AS",
+        "icao": "JAG"
+      },
+      "flight": {
+        "number": "5262",
+        "iata": "AS5262",
+        "icao": "JAG5262",
+        "codeshared": {
+          "airline_name": "british airways",
+          "airline_iata": "ba",
+          "airline_icao": "baw",
+          "flight_number": "178",
+          "flight_iata": "ba178",
+          "flight_icao": "baw178"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "4005BC"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A3",
+        "delay": 18,
+        "scheduled": "2025-12-06T08:20:00+00:00",
+        "estimated": "2025-12-06T08:20:00+00:00",
+        "actual": "2025-12-06T08:38:00+00:00",
+        "estimated_runway": "2025-12-06T08:38:00+00:00",
+        "actual_runway": "2025-12-06T08:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:37:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      },
+      "flight": {
+        "number": "9656",
+        "iata": "AF9656",
+        "icao": "AFR9656",
+        "codeshared": {
+          "airline_name": "virgin atlantic",
+          "airline_iata": "vs",
+          "airline_icao": "vir",
+          "flight_number": "26",
+          "flight_iata": "vs26",
+          "flight_icao": "vir26"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "406E10"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A3",
+        "delay": 18,
+        "scheduled": "2025-12-06T08:20:00+00:00",
+        "estimated": "2025-12-06T08:20:00+00:00",
+        "actual": "2025-12-06T08:38:00+00:00",
+        "estimated_runway": "2025-12-06T08:38:00+00:00",
+        "actual_runway": "2025-12-06T08:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:37:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      },
+      "flight": {
+        "number": "5996",
+        "iata": "DL5996",
+        "icao": "DAL5996",
+        "codeshared": {
+          "airline_name": "virgin atlantic",
+          "airline_iata": "vs",
+          "airline_icao": "vir",
+          "flight_number": "26",
+          "flight_iata": "vs26",
+          "flight_icao": "vir26"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "406E10"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A3",
+        "delay": 18,
+        "scheduled": "2025-12-06T08:20:00+00:00",
+        "estimated": "2025-12-06T08:20:00+00:00",
+        "actual": "2025-12-06T08:38:00+00:00",
+        "estimated_runway": "2025-12-06T08:38:00+00:00",
+        "actual_runway": "2025-12-06T08:38:00+00:00"
+      },
+      "arrival": {
+        "airport": "Heathrow",
+        "timezone": "Europe/London",
+        "iata": "LHR",
+        "icao": "EGLL",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T20:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T19:37:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      },
+      "flight": {
+        "number": "2505",
+        "iata": "KL2505",
+        "icao": "KLM2505",
+        "codeshared": {
+          "airline_name": "virgin atlantic",
+          "airline_iata": "vs",
+          "airline_icao": "vir",
+          "flight_number": "26",
+          "flight_iata": "vs26",
+          "flight_icao": "vir26"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "406E10"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "520",
+        "delay": 18,
+        "scheduled": "2025-12-06T08:23:00+00:00",
+        "estimated": "2025-12-06T08:23:00+00:00",
+        "actual": "2025-12-06T08:40:00+00:00",
+        "estimated_runway": "2025-12-06T08:40:00+00:00",
+        "actual_runway": "2025-12-06T08:40:00+00:00"
+      },
+      "arrival": {
+        "airport": "Denver International",
+        "timezone": "America/Denver",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T11:05:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T10:38:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "3971",
+        "iata": "QR3971",
+        "icao": "QTR3971",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "1297",
+          "flight_iata": "b61297",
+          "flight_icao": "jbu1297"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A38AD5"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B39",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:30:00+00:00",
+        "estimated": "2025-12-06T08:30:00+00:00",
+        "actual": "2025-12-06T08:52:00+00:00",
+        "estimated_runway": "2025-12-06T08:52:00+00:00",
+        "actual_runway": "2025-12-06T08:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Internacional Benito Juarez",
+        "timezone": "America/Mexico_City",
+        "iata": "MEX",
+        "icao": "MMMX",
+        "terminal": "2",
+        "gate": "58",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Aeromexico",
+        "iata": "AM",
+        "icao": "AMX"
+      },
+      "flight": {
+        "number": "5279",
+        "iata": "AM5279",
+        "icao": "AMX5279",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "625",
+          "flight_iata": "dl625",
+          "flight_icao": "dal625"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A98539"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B39",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:30:00+00:00",
+        "estimated": "2025-12-06T08:30:00+00:00",
+        "actual": "2025-12-06T08:52:00+00:00",
+        "estimated_runway": "2025-12-06T08:52:00+00:00",
+        "actual_runway": "2025-12-06T08:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Internacional Benito Juarez",
+        "timezone": "America/Mexico_City",
+        "iata": "MEX",
+        "icao": "MMMX",
+        "terminal": "2",
+        "gate": "58",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "7597",
+        "iata": "KE7597",
+        "icao": "KAL7597",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "625",
+          "flight_iata": "dl625",
+          "flight_icao": "dal625"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A98539"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B39",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:30:00+00:00",
+        "estimated": "2025-12-06T08:30:00+00:00",
+        "actual": "2025-12-06T08:52:00+00:00",
+        "estimated_runway": "2025-12-06T08:52:00+00:00",
+        "actual_runway": "2025-12-06T08:52:00+00:00"
+      },
+      "arrival": {
+        "airport": "Internacional Benito Juarez",
+        "timezone": "America/Mexico_City",
+        "iata": "MEX",
+        "icao": "MMMX",
+        "terminal": "2",
+        "gate": "58",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:40:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4963",
+        "iata": "VS4963",
+        "icao": "VIR4963",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "625",
+          "flight_iata": "dl625",
+          "flight_icao": "dal625"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A98539"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B47",
+        "delay": 16,
+        "scheduled": "2025-12-06T08:30:00+00:00",
+        "estimated": "2025-12-06T08:30:00+00:00",
+        "actual": "2025-12-06T08:45:00+00:00",
+        "estimated_runway": "2025-12-06T08:45:00+00:00",
+        "actual_runway": "2025-12-06T08:45:00+00:00"
+      },
+      "arrival": {
+        "airport": "George Bush Intercontinental",
+        "timezone": "America/Chicago",
+        "iata": "IAH",
+        "icao": "KIAH",
+        "terminal": "A",
+        "gate": "A12",
+        "baggage": null,
+        "scheduled": "2025-12-06T11:49:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T11:10:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "2293",
+        "iata": "VS2293",
+        "icao": "VIR2293",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "1058",
+          "flight_iata": "dl1058",
+          "flight_icao": "dal1058"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A09CFE"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "47",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:46:00+00:00",
+        "estimated": "2025-12-06T08:46:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T15:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "AlphaSky",
+        "iata": "AS",
+        "icao": "JAG"
+      },
+      "flight": {
+        "number": "8100",
+        "iata": "AS8100",
+        "icao": "JAG8100",
+        "codeshared": {
+          "airline_name": "hawaiian airlines",
+          "airline_iata": "ha",
+          "airline_icao": "hal",
+          "flight_number": "829",
+          "flight_iata": "ha829",
+          "flight_icao": "hal829"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A46E8D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "47",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:46:00+00:00",
+        "estimated": "2025-12-06T08:46:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T15:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "JetBlue Airways",
+        "iata": "B6",
+        "icao": "JBU"
+      },
+      "flight": {
+        "number": "5851",
+        "iata": "B65851",
+        "icao": "JBU5851",
+        "codeshared": {
+          "airline_name": "hawaiian airlines",
+          "airline_iata": "ha",
+          "airline_icao": "hal",
+          "flight_number": "829",
+          "flight_iata": "ha829",
+          "flight_icao": "hal829"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A46E8D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "47",
+        "delay": 23,
+        "scheduled": "2025-12-06T08:46:00+00:00",
+        "estimated": "2025-12-06T08:46:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-06T15:10:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "7846",
+        "iata": "KE7846",
+        "icao": "KAL7846",
+        "codeshared": {
+          "airline_name": "hawaiian airlines",
+          "airline_iata": "ha",
+          "airline_icao": "hal",
+          "flight_number": "829",
+          "flight_iata": "ha829",
+          "flight_icao": "hal829"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A46E8D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "18",
+        "delay": 21,
+        "scheduled": "2025-12-06T09:00:00+00:00",
+        "estimated": "2025-12-06T09:00:00+00:00",
+        "actual": "2025-12-06T09:20:00+00:00",
+        "estimated_runway": "2025-12-06T09:20:00+00:00",
+        "actual_runway": "2025-12-06T09:20:00+00:00"
+      },
+      "arrival": {
+        "airport": "Hong Kong International",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T14:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T13:28:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "5640",
+        "iata": "LA5640",
+        "icao": "LAN5640",
+        "codeshared": {
+          "airline_name": "cathay pacific",
+          "airline_iata": "cx",
+          "airline_icao": "cpa",
+          "flight_number": "841",
+          "flight_iata": "cx841",
+          "flight_icao": "cpa841"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "789204"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "18",
+        "delay": 21,
+        "scheduled": "2025-12-06T09:00:00+00:00",
+        "estimated": "2025-12-06T09:00:00+00:00",
+        "actual": "2025-12-06T09:20:00+00:00",
+        "estimated_runway": "2025-12-06T09:20:00+00:00",
+        "actual_runway": "2025-12-06T09:20:00+00:00"
+      },
+      "arrival": {
+        "airport": "Hong Kong International",
+        "timezone": "Asia/Hong_Kong",
+        "iata": "HKG",
+        "icao": "VHHH",
+        "terminal": "1",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T14:10:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-07T13:28:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Malaysia Airlines",
+        "iata": "MH",
+        "icao": "MAS"
+      },
+      "flight": {
+        "number": "9187",
+        "iata": "MH9187",
+        "icao": "MAS9187",
+        "codeshared": {
+          "airline_name": "cathay pacific",
+          "airline_iata": "cx",
+          "airline_icao": "cpa",
+          "flight_number": "841",
+          "flight_iata": "cx841",
+          "flight_icao": "cpa841"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "789204"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B34",
+        "delay": 15,
+        "scheduled": "2025-12-06T09:00:00+00:00",
+        "estimated": "2025-12-06T09:00:00+00:00",
+        "actual": "2025-12-06T09:14:00+00:00",
+        "estimated_runway": "2025-12-06T09:14:00+00:00",
+        "actual_runway": "2025-12-06T09:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T12:36:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:07:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "7909",
+        "iata": "LA7909",
+        "icao": "LAN7909",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "409",
+          "flight_iata": "dl409",
+          "flight_icao": "dal409"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1373D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B34",
+        "delay": 15,
+        "scheduled": "2025-12-06T09:00:00+00:00",
+        "estimated": "2025-12-06T09:00:00+00:00",
+        "actual": "2025-12-06T09:14:00+00:00",
+        "estimated_runway": "2025-12-06T09:14:00+00:00",
+        "actual_runway": "2025-12-06T09:14:00+00:00"
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "C8",
+        "baggage": null,
+        "scheduled": "2025-12-06T12:36:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:07:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4753",
+        "iata": "VS4753",
+        "icao": "VIR4753",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "409",
+          "flight_iata": "dl409",
+          "flight_icao": "dal409"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1373D"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 28,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": "2025-12-06T09:57:00+00:00",
+        "estimated_runway": "2025-12-06T09:57:00+00:00",
+        "actual_runway": "2025-12-06T09:57:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "48A",
+        "baggage": "T4C2",
+        "scheduled": "2025-12-06T12:44:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:24:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Royal Air Maroc",
+        "iata": "AT",
+        "icao": "RAM"
+      },
+      "flight": {
+        "number": "5044",
+        "iata": "AT5044",
+        "icao": "RAM5044",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "255",
+          "flight_iata": "aa255",
+          "flight_icao": "aal255"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A01880"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 28,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": "2025-12-06T09:57:00+00:00",
+        "estimated_runway": "2025-12-06T09:57:00+00:00",
+        "actual_runway": "2025-12-06T09:57:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "48A",
+        "baggage": "T4C2",
+        "scheduled": "2025-12-06T12:44:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:24:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "British Airways",
+        "iata": "BA",
+        "icao": "BAW"
+      },
+      "flight": {
+        "number": "4685",
+        "iata": "BA4685",
+        "icao": "BAW4685",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "255",
+          "flight_iata": "aa255",
+          "flight_icao": "aal255"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A01880"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 28,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": "2025-12-06T09:57:00+00:00",
+        "estimated_runway": "2025-12-06T09:57:00+00:00",
+        "actual_runway": "2025-12-06T09:57:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "48A",
+        "baggage": "T4C2",
+        "scheduled": "2025-12-06T12:44:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:24:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      },
+      "flight": {
+        "number": "3218",
+        "iata": "QF3218",
+        "icao": "QFA3218",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "255",
+          "flight_iata": "aa255",
+          "flight_icao": "aal255"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A01880"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "5",
+        "delay": 28,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": "2025-12-06T09:57:00+00:00",
+        "estimated_runway": "2025-12-06T09:57:00+00:00",
+        "actual_runway": "2025-12-06T09:57:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "4",
+        "gate": "48A",
+        "baggage": "T4C2",
+        "scheduled": "2025-12-06T12:44:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:24:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "2845",
+        "iata": "QR2845",
+        "icao": "QTR2845",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "255",
+          "flight_iata": "aa255",
+          "flight_icao": "aal255"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A01880"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "33",
+        "delay": 36,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B14",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:17:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "4996",
+        "iata": "HA4996",
+        "icao": "HAL4996",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "114",
+          "flight_iata": "as114",
+          "flight_icao": "asa114"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A29551"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "33",
+        "delay": 36,
+        "scheduled": "2025-12-06T09:30:00+00:00",
+        "estimated": "2025-12-06T09:30:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "San Francisco International",
+        "timezone": "America/Los_Angeles",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "terminal": "1",
+        "gate": "B14",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:17:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Qatar Airways",
+        "iata": "QR",
+        "icao": "QTR"
+      },
+      "flight": {
+        "number": "2062",
+        "iata": "QR2062",
+        "icao": "QTR2062",
+        "codeshared": {
+          "airline_name": "alaska airlines",
+          "airline_iata": "as",
+          "airline_icao": "asa",
+          "flight_number": "114",
+          "flight_iata": "as114",
+          "flight_icao": "asa114"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A29551"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B28",
+        "delay": 21,
+        "scheduled": "2025-12-06T09:35:00+00:00",
+        "estimated": "2025-12-06T09:35:00+00:00",
+        "actual": "2025-12-06T09:55:00+00:00",
+        "estimated_runway": "2025-12-06T09:55:00+00:00",
+        "actual_runway": "2025-12-06T09:55:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "34A",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:01:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6678",
+        "iata": "LA6678",
+        "icao": "LAN6678",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "773",
+          "flight_iata": "dl773",
+          "flight_icao": "dal773"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1863B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B28",
+        "delay": 21,
+        "scheduled": "2025-12-06T09:35:00+00:00",
+        "estimated": "2025-12-06T09:35:00+00:00",
+        "actual": "2025-12-06T09:55:00+00:00",
+        "estimated_runway": "2025-12-06T09:55:00+00:00",
+        "actual_runway": "2025-12-06T09:55:00+00:00"
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "3",
+        "gate": "34A",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:01:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T12:33:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "4741",
+        "iata": "VS4741",
+        "icao": "VIR4741",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "773",
+          "flight_iata": "dl773",
+          "flight_icao": "dal773"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1863B"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": null,
+        "gate": null,
+        "delay": 10,
+        "scheduled": "2025-12-06T10:20:00+00:00",
+        "estimated": "2025-12-06T10:20:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Doha International",
+        "timezone": "Asia/Qatar",
+        "iata": "DOH",
+        "icao": "OTHH",
+        "terminal": null,
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T05:41:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "empty",
+        "iata": null,
+        "icao": null
+      },
+      "flight": {
+        "number": null,
+        "iata": null,
+        "icao": null,
+        "codeshared": null
+      },
+      "aircraft": null,
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 14,
+        "scheduled": "2025-12-06T09:55:00+00:00",
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": "2025-12-06T10:09:00+00:00",
+        "estimated_runway": "2025-12-06T10:09:00+00:00",
+        "actual_runway": "2025-12-06T10:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "2",
+        "gate": "E4",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:08:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T15:36:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Korean Air",
+        "iata": "KE",
+        "icao": "KAL"
+      },
+      "flight": {
+        "number": "6784",
+        "iata": "KE6784",
+        "icao": "KAL6784",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "636",
+          "flight_iata": "dl636",
+          "flight_icao": "dal636"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1775F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "B37",
+        "delay": 14,
+        "scheduled": "2025-12-06T09:55:00+00:00",
+        "estimated": "2025-12-06T09:55:00+00:00",
+        "actual": "2025-12-06T10:09:00+00:00",
+        "estimated_runway": "2025-12-06T10:09:00+00:00",
+        "actual_runway": "2025-12-06T10:09:00+00:00"
+      },
+      "arrival": {
+        "airport": "Honolulu International",
+        "timezone": "Pacific/Honolulu",
+        "iata": "HNL",
+        "icao": "PHNL",
+        "terminal": "2",
+        "gate": "E4",
+        "baggage": null,
+        "scheduled": "2025-12-06T16:08:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T15:36:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "3764",
+        "iata": "VS3764",
+        "icao": "VIR3764",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "636",
+          "flight_iata": "dl636",
+          "flight_icao": "dal636"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A1775F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "527",
+        "delay": 138,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "1",
+        "gate": "14",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Hawaiian Airlines",
+        "iata": "HA",
+        "icao": "HAL"
+      },
+      "flight": {
+        "number": "2309",
+        "iata": "HA2309",
+        "icao": "HAL2309",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "623",
+          "flight_iata": "b6623",
+          "flight_icao": "jbu623"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A4C2AD"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "5",
+        "gate": "527",
+        "delay": 138,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Los Angeles International",
+        "timezone": "America/Los_Angeles",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "terminal": "1",
+        "gate": "14",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:20:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LOT - Polish Airlines",
+        "iata": "LO",
+        "icao": "LOT"
+      },
+      "flight": {
+        "number": "5757",
+        "iata": "LO5757",
+        "icao": "LOT5757",
+        "codeshared": {
+          "airline_name": "jetblue airways",
+          "airline_iata": "b6",
+          "airline_icao": "jbu",
+          "flight_number": "623",
+          "flight_iata": "b6623",
+          "flight_icao": "jbu623"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A4C2AD"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A11",
+        "delay": 23,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": "2025-12-06T10:22:00+00:00",
+        "estimated_runway": "2025-12-06T10:22:00+00:00",
+        "actual_runway": "2025-12-06T10:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A35",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:32:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      },
+      "flight": {
+        "number": "3052",
+        "iata": "AF3052",
+        "icao": "AFR3052",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "917",
+          "flight_iata": "dl917",
+          "flight_icao": "dal917"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A78C8F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A11",
+        "delay": 23,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": "2025-12-06T10:22:00+00:00",
+        "estimated_runway": "2025-12-06T10:22:00+00:00",
+        "actual_runway": "2025-12-06T10:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A35",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:32:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "LATAM Airlines",
+        "iata": "LA",
+        "icao": "LAN"
+      },
+      "flight": {
+        "number": "6495",
+        "iata": "LA6495",
+        "icao": "LAN6495",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "917",
+          "flight_iata": "dl917",
+          "flight_icao": "dal917"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A78C8F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A11",
+        "delay": 23,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": "2025-12-06T10:22:00+00:00",
+        "estimated_runway": "2025-12-06T10:22:00+00:00",
+        "actual_runway": "2025-12-06T10:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A35",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:32:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "El Al",
+        "iata": "LY",
+        "icao": "ELY"
+      },
+      "flight": {
+        "number": "4446",
+        "iata": "LY4446",
+        "icao": "ELY4446",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "917",
+          "flight_iata": "dl917",
+          "flight_icao": "dal917"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A78C8F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A11",
+        "delay": 23,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": "2025-12-06T10:22:00+00:00",
+        "estimated_runway": "2025-12-06T10:22:00+00:00",
+        "actual_runway": "2025-12-06T10:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A35",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:32:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Virgin Atlantic",
+        "iata": "VS",
+        "icao": "VIR"
+      },
+      "flight": {
+        "number": "3164",
+        "iata": "VS3164",
+        "icao": "VIR3164",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "917",
+          "flight_iata": "dl917",
+          "flight_icao": "dal917"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A78C8F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "4",
+        "gate": "A11",
+        "delay": 23,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": "2025-12-06T10:22:00+00:00",
+        "estimated_runway": "2025-12-06T10:22:00+00:00",
+        "actual_runway": "2025-12-06T10:22:00+00:00"
+      },
+      "arrival": {
+        "airport": "Salt Lake City International",
+        "timezone": "America/Denver",
+        "iata": "SLC",
+        "icao": "KSLC",
+        "terminal": null,
+        "gate": "A35",
+        "baggage": null,
+        "scheduled": "2025-12-06T13:32:00+00:00",
+        "delay": null,
+        "estimated": "2025-12-06T13:05:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "WestJet",
+        "iata": "WS",
+        "icao": "WJA"
+      },
+      "flight": {
+        "number": "7004",
+        "iata": "WS7004",
+        "icao": "WJA7004",
+        "codeshared": {
+          "airline_name": "delta air lines",
+          "airline_iata": "dl",
+          "airline_icao": "dal",
+          "flight_number": "917",
+          "flight_iata": "dl917",
+          "flight_icao": "dal917"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "A78C8F"
+      },
+      "live": null
+    },
+    {
+      "flight_date": "2025-12-06",
+      "flight_status": "active",
+      "departure": {
+        "airport": "John F Kennedy International",
+        "timezone": "America/New_York",
+        "iata": "JFK",
+        "icao": "KJFK",
+        "terminal": "8",
+        "gate": "16",
+        "delay": 60,
+        "scheduled": "2025-12-06T10:00:00+00:00",
+        "estimated": "2025-12-06T10:00:00+00:00",
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "arrival": {
+        "airport": "Haneda Airport",
+        "timezone": "Asia/Tokyo",
+        "iata": "HND",
+        "icao": "RJTT",
+        "terminal": "3",
+        "gate": null,
+        "baggage": null,
+        "scheduled": "2025-12-07T14:35:00+00:00",
+        "delay": null,
+        "estimated": null,
+        "actual": null,
+        "estimated_runway": null,
+        "actual_runway": null
+      },
+      "airline": {
+        "name": "Japan Airlines",
+        "iata": "JL",
+        "icao": "JTL"
+      },
+      "flight": {
+        "number": "7009",
+        "iata": "JL7009",
+        "icao": "JTL7009",
+        "codeshared": {
+          "airline_name": "american airlines",
+          "airline_iata": "aa",
+          "airline_icao": "aal",
+          "flight_number": "167",
+          "flight_iata": "aa167",
+          "flight_icao": "aal167"
+        }
+      },
+      "aircraft": {
+        "registration": null,
+        "iata": null,
+        "icao": null,
+        "icao24": "AB3C0D"
+      },
+      "live": null
+    }
+  ]
+}
