@@ -2,9 +2,6 @@ import sqlite3
 import json
 import os
 
-# --------------------------------------
-# Build absolute paths relative to this script
-# --------------------------------------
 
 BASE_DIR = os.path.dirname(__file__)
 
@@ -25,20 +22,14 @@ weather_files = [
 print("DB_PATH =", DB_PATH)
 print("WEATHER_FOLDER =", WEATHER_FOLDER)
 
-# --------------------------------------
 # Ensure the Database folder exists
-# --------------------------------------
-
 db_folder = os.path.dirname(DB_PATH)
 if not os.path.exists(db_folder):
     os.makedirs(db_folder)
     print(f"Created folder: {db_folder}")
 
 
-# --------------------------------------
 # Open / create database
-# --------------------------------------
-
 try:
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
@@ -47,10 +38,7 @@ except sqlite3.OperationalError as e:
     exit()
 
 
-# --------------------------------------
 # Create table
-# --------------------------------------
-
 cur.execute("""
     CREATE TABLE IF NOT EXISTS weather_data (
         weather_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -71,18 +59,12 @@ cur.execute("""
 print("Table 'weather_data' ready.\n")
 
 
-# --------------------------------------
 # Helper to safely extract values
-# --------------------------------------
-
 def safe(dictionary, key, default=None):
     return dictionary.get(key, default)
 
 
-# --------------------------------------
 # Loop through files and insert into DB
-# --------------------------------------
-
 insert_count = 0
 
 for filename in weather_files:
@@ -128,11 +110,7 @@ for filename in weather_files:
 
     insert_count += 1
 
-
-# --------------------------------------
 # Save changes and close DB
-# --------------------------------------
-
 conn.commit()
 conn.close()
 
