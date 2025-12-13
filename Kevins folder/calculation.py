@@ -3,6 +3,7 @@
     # Scatter plot comparing avg delay vs. humidity 
 
 import sqlite3
+import matplotlib.pyplot as plt
 
 
 # ========== CALCULATION & DATA PREP ==========
@@ -93,6 +94,7 @@ def add_weather_to_avg_delay(avg_delay_dict):
     # Return result
     return return_dict
 
+
 # ========== WRITING INTO FILE ==========
 def write_calc_summary(enriched_avg_delay_dict):
     """
@@ -117,22 +119,94 @@ def write_calc_summary(enriched_avg_delay_dict):
             file.write(f"  Humidity is {humidity}%\n\n")
 
 
-
 # ========== PLOTTING ==========
-# Scatter plot 1:
+# Scatter plot 1: avg delay vs. wind speed
+def plot_delay_vs_wind(enriched_dict):
+    """
+    Creates and saves a scatter plot of:
+    X-axis: wind speed
+    Y-axis: average flight delay
+    """
 
-# Scatter plot 2:
+    # Extract x and y values
+    wind_speeds = []
+    avg_delays = []
+
+    for date, metrics in enriched_dict.items():
+        wind_speeds.append(metrics["wind_speed"])
+        avg_delays.append(metrics["avg_delay"])
+
+    # Create scatter plot
+    plt.figure()
+    plt.scatter(wind_speeds, avg_delays, color="red")
+
+    # Add labels and title
+    plt.xlabel("Wind Speed (m/s)")
+    plt.ylabel("Average Flight Delay (min)")
+    plt.title("Average Flight Delay vs Wind Speed")
+
+    # Save figure directly to Kevins folder
+    plt.savefig("Kevins folder/delay_vs_wind_scatter.png")
+
+    # Show plot
+    # plt.show()
+
+    # Close figure
+    plt.close()
+
+
+# Scatter plot 2: avg delay vs. humidity
+def plot_delay_vs_humidity(enriched_dict):
+    """
+    Creates and saves a scatter plot of:
+    X-axis: humidity
+    Y-axis: average flight delay
+    """
+
+    # Extract x and y values
+    humidities = []
+    avg_delays = []
+
+    for date, metrics in enriched_dict.items():
+        humidities.append(metrics["humidity"])
+        avg_delays.append(metrics["avg_delay"])
+
+    # Create scatter plot
+    plt.figure()
+    plt.scatter(humidities, avg_delays, color="green")
+
+    # Add labels and title
+    plt.xlabel("Humidity (%)")
+    plt.ylabel("Average Flight Delay (min)")
+    plt.title("Average Flight Delay vs Humidity")
+
+    # Save figure directly to Kevins folder
+    plt.savefig("Kevins folder/delay_vs_humidity_scatter.png")
+
+    # Show plot
+    # plt.show()
+
+    # Close figure
+    plt.close()
 
 
 # ========== MAIN FUNCTION ==========
 def main():
+    # Calculating delay
     avg_delays = get_avg_delay_by_session()
+
+    # Collect wind and humidity data to add to avg_delays dict
     avg_delay_enriched = add_weather_to_avg_delay(avg_delays)
     
     # for key, value in avg_delay_enriched.items():
     #     print(f"{key} : {value}")
 
+    # Write calculation summary into text file
     write_calc_summary(avg_delay_enriched)
+
+    # Plot scattered plots
+    plot_delay_vs_wind(avg_delay_enriched)
+    plot_delay_vs_humidity(avg_delay_enriched)
 
 
 if __name__ == "__main__":
