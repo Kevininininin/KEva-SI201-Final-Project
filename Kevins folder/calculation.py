@@ -93,9 +93,28 @@ def add_weather_to_avg_delay(avg_delay_dict):
     # Return result
     return return_dict
 
-
 # ========== WRITING INTO FILE ==========
+def write_calc_summary(enriched_avg_delay_dict):
+    """
+    Write a summary .txt file to Kevins folder/.
+    """
 
+    with open("Kevins folder/calc_summary.txt", "w") as file:
+        # Title / header
+        file.write("Flight Delay Summary by Weather Session\n")
+        file.write("This file summarizes average flight delays along with wind speed and "
+                   "humidity for flights departing from JFK Airport in New York City.\n\n")
+
+        # Write each session's data
+        for session_name, data in enriched_avg_delay_dict.items():
+            avg_delay = data["avg_delay"]
+            wind_speed = data["wind_speed"]
+            humidity = data["humidity"]
+
+            file.write(f"{session_name}:\n")
+            file.write(f"  Avg delay is {avg_delay} min\n")
+            file.write(f"  Wind speed is {wind_speed} m/s\n")
+            file.write(f"  Humidity is {humidity}%\n\n")
 
 
 
@@ -112,6 +131,8 @@ def main():
     
     # for key, value in avg_delay_enriched.items():
     #     print(f"{key} : {value}")
+
+    write_calc_summary(avg_delay_enriched)
 
 
 if __name__ == "__main__":
