@@ -102,6 +102,69 @@ def compute_daynight_avg(enriched_dict):
 
     return {"Day": avg_day, "Night": avg_night}
 
+
+
+
+
+
+def get_airline_wind_delay():
+    """
+    Returns dict:
+        { airline_name: { "avg_delay": x, "avg_wind": y } }
+    """
+    conn = sqlite3.connect("Database/final_project_2.db")
+    cur = conn.cursor()
+
+    query = """
+        SELECT 
+            airlines.name,
+            flights_data.departure_delay,
+            weather_sessions.wind_speed
+        FROM flights_data
+        JOIN airlines
+            ON flights_data.airline_id = airlines.id
+        JOIN weather_sessions
+            ON flights_data.weather_id = weather_sessions.id
+        WHERE flights_data.departure_delay IS NOT NULL
+    """
+
+    cur.execute(query)
+    rows = cur.fetchall()
+    conn.close()
+
+    data = {}
+
+    for airline, delay, wind in rows:
+        if airline not in data:
+            data[airline] = {
+                "delay_sum": 0,
+                "delay_count": 0,
+                "wind_sum": 0,
+                "wind_count": 0
+            }
+
+        data[airline]["delay_sum"] += delay
+        data[airline]["delay_count"] += 1
+        data[airline]["wind_sum"] += wind
+        data[airline]["wind_count"] += 1
+
+    # Convert sums to avg
+    result = {}
+    for airline in data:
+        avg_delay = data[airline]["delay_sum"] / data[airline]["delay_count"]
+        avg_wind = data[airline]["wind_sum"] / data[airline]["wind_count"]
+        result[airline] = {
+            "avg_delay": avg_delay,
+            "avg_wind": avg_wind
+        }
+
+    return result
+
+
+
+
+
+
 # ========== PLOTTING ==========
 # Bar chart 1: avg delay vs. is_day
 
@@ -110,14 +173,52 @@ def plot_daynight_delay(avg_dict):
     values = list(avg_dict.values())   # [avg_day, avg_night]
 
     plt.figure()
+
+    # create bar chart
     plt.bar(labels, values, color=["gold", "navy"])
+
+    # add labels and title
     plt.title("Average Flight Delay: Day vs Night")
     plt.ylabel("Average Delay (minutes)")
     plt.xlabel("Time of Day")
     plt.tight_layout()
     # plt.show()
+
+    #Save figure directly to Evas folder
     plt.savefig("Evas folder/delay_vs_is_day.png")
     plt.close()
+
+
+def plot_wind_vs_delay_per_airline(airline_dict):
+    """
+    Scatter plot of avg wind vs avg delay per airline.
+    """
+
+    # Extract x (wind) and y (delay)
+    winds = []
+    delays = []
+    labels = []
+
+    for airline, metrics in airline_dict.items():
+        winds.append(metrics["avg_wind"])
+        delays.append(metrics["avg_delay"])
+        labels.append(airline)
+
+    plt.figure(figsize=(10, 6))
+    plt.scatter(winds, delays)
+
+    # Add labels for each airline (optional)
+    for i, name in enumerate(labels):
+        plt.annotate(name, (winds[i], delays[i]), fontsize=6, alpha=0.7)
+
+    plt.xlabel("Average Wind Speed (m/s)")
+    plt.ylabel("Average Departure Delay (min)")
+    plt.title("Correlation: Wind Speed vs Flight Delay per Airline")
+
+    plt.tight_layout()
+    plt.savefig("Evas folder/wind_vs_delay_per_airline.png")
+    plt.close()
+
 
 
 
@@ -125,17 +226,18 @@ def plot_daynight_delay(avg_dict):
 def main():
     # Calculating delay
     avg_delays = get_avg_delay_by_session()
-    print(avg_delays)
+    # print(avg_delays)
 
     # Collect is_data data to add to avg_delays dict
     avg_delay_enriched= add_is_day_to_avg_delay(avg_delays)
-    print(avg_delay_enriched)
+    # print(avg_delay_enriched)
 
     computed_dict=compute_daynight_avg(avg_delay_enriched)
 
     plot_daynight_delay(computed_dict)
 
-    
+    airline_stats = get_airline_wind_delay()
+    plot_wind_vs_delay_per_airline(airline_stats)
 
 
 if __name__ == "__main__":
