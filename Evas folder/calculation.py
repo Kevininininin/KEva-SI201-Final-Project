@@ -151,8 +151,8 @@ def get_airline_wind_delay_top10():
     # Convert to averages + count
     result = {}
     for airline, stats in data.items():
-        avg_delay = stats["delay_sum"] / stats["delay_count"]
-        avg_wind = stats["wind_sum"] / stats["wind_count"]
+        avg_delay = round(stats["delay_sum"] / stats["delay_count"],2)
+        avg_wind = round(stats["wind_sum"] / stats["wind_count"], 2)
 
         result[airline] = {
             "avg_delay": avg_delay,
@@ -167,6 +167,19 @@ def get_airline_wind_delay_top10():
 
     return sorted_top10
 
+# ========== WRITING INTO FILE ==========
+def write_airline_summary(airline_stats):
+    with open("Evas folder/airline_weather_summary.txt", "w") as f:
+        f.write("Airline Weather & Delay Summary\n")
+        f.write("This file summarizes average flight delays along with wind speed per airline " "\n\n")
+
+        for airline, metrics in airline_stats.items():
+            avg_wind = metrics["avg_wind"]
+            avg_delay = metrics["avg_delay"]
+
+            f.write(f"Airline: {airline}\n")
+            f.write(f"  Average Wind Speed: {avg_wind} m/s\n")
+            f.write(f"  Average Arrival Delay: {avg_delay} minutes\n\n")
 
 
 
@@ -243,7 +256,7 @@ def main():
 
     airline_stats = get_airline_wind_delay_top10()
     plot_wind_vs_delay_top10(airline_stats)
-
+    write_airline_summary(airline_stats)
 
 if __name__ == "__main__":
     main()

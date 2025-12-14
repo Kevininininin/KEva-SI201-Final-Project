@@ -1,0 +1,43 @@
+Airline Weather & Delay Summary
+This file summarizes average flight delays along with wind speed per airline 
+
+Airline: LATAM Airlines
+  Average Wind Speed: 13.06 m/s
+  Average Arrival Delay: 25.68 minutes
+
+Airline: Delta Air Lines
+  Average Wind Speed: 20.3 m/s
+  Average Arrival Delay: 19.98 minutes
+
+Airline: Virgin Atlantic
+  Average Wind Speed: 11.43 m/s
+  Average Arrival Delay: 25.68 minutes
+
+Airline: American Airlines
+  Average Wind Speed: 16.31 m/s
+  Average Arrival Delay: 22.9 minutes
+
+Airline: Qatar Airways
+  Average Wind Speed: 8.14 m/s
+  Average Arrival Delay: 17.21 minutes
+
+Airline: British Airways
+  Average Wind Speed: 13.12 m/s
+  Average Arrival Delay: 16.32 minutes
+
+Airline: Hawaiian Airlines
+  Average Wind Speed: 11.32 m/s
+  Average Arrival Delay: 29.36 minutes
+
+Airline: Korean Air
+  Average Wind Speed: 12.78 m/s
+  Average Arrival Delay: 23.48 minutes
+
+Airline: JetBlue Airways
+  Average Wind Speed: 10.41 m/s
+  Average Arrival Delay: 15.18 minutes
+
+Airline: Japan Airlines
+  Average Wind Speed: 13.57 m/s
+  Average Arrival Delay: 57.95 minutes
+
