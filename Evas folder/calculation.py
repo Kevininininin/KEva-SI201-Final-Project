@@ -1,6 +1,6 @@
 # Eva's graphs
     # Bar chart of avg delay for is_day or is_not_day
-    # bar chart for windspeed vs airline: does certain airlines experience higher or lower avg windspeed than other airlines?
+    # scatter plot for windspeed vs delay per airline: does certain airlines experience higher or lower avg windspeed than other airlines?
 
 import sqlite3
 import matplotlib.pyplot as plt
@@ -107,11 +107,12 @@ def compute_daynight_avg(enriched_dict):
 
 
 
-def get_airline_wind_delay():
+def get_airline_wind_delay_top10():
     """
-    Returns dict:
-        { airline_name: { "avg_delay": x, "avg_wind": y } }
+    Returns dict for top 10 airlines with most flight records:
+        { airline_name: { "avg_delay": x, "avg_wind": y, "count": n } }
     """
+
     conn = sqlite3.connect("Database/final_project_2.db")
     cur = conn.cursor()
 
@@ -127,7 +128,6 @@ def get_airline_wind_delay():
             ON flights_data.weather_id = weather_sessions.id
         WHERE flights_data.departure_delay IS NOT NULL
     """
-
     cur.execute(query)
     rows = cur.fetchall()
     conn.close()
@@ -148,18 +148,24 @@ def get_airline_wind_delay():
         data[airline]["wind_sum"] += wind
         data[airline]["wind_count"] += 1
 
-    # Convert sums to avg
+    # Convert to averages + count
     result = {}
-    for airline in data:
-        avg_delay = data[airline]["delay_sum"] / data[airline]["delay_count"]
-        avg_wind = data[airline]["wind_sum"] / data[airline]["wind_count"]
+    for airline, stats in data.items():
+        avg_delay = stats["delay_sum"] / stats["delay_count"]
+        avg_wind = stats["wind_sum"] / stats["wind_count"]
+
         result[airline] = {
             "avg_delay": avg_delay,
-            "avg_wind": avg_wind
+            "avg_wind": avg_wind,
+            "count": stats["delay_count"]
         }
 
-    return result
+    # Sort airlines by flight count (descending)
+    sorted_top10 = dict(
+        sorted(result.items(), key=lambda x: x[1]["count"], reverse=True)[:10]
+    )
 
+    return sorted_top10
 
 
 
@@ -189,12 +195,11 @@ def plot_daynight_delay(avg_dict):
     plt.close()
 
 
-def plot_wind_vs_delay_per_airline(airline_dict):
+def plot_wind_vs_delay_top10(airline_dict):
     """
-    Scatter plot of avg wind vs avg delay per airline.
+    Scatter plot for top 10 airlines by number of flight records.
     """
 
-    # Extract x (wind) and y (delay)
     winds = []
     delays = []
     labels = []
@@ -204,19 +209,19 @@ def plot_wind_vs_delay_per_airline(airline_dict):
         delays.append(metrics["avg_delay"])
         labels.append(airline)
 
-    plt.figure(figsize=(10, 6))
-    plt.scatter(winds, delays)
+    plt.figure(figsize=(10, 7))
+    plt.scatter(winds, delays, color="purple")
 
-    # Add labels for each airline (optional)
+    # annotate airline names
     for i, name in enumerate(labels):
-        plt.annotate(name, (winds[i], delays[i]), fontsize=6, alpha=0.7)
+        plt.annotate(name, (winds[i], delays[i]), fontsize=8, alpha=0.8)
 
     plt.xlabel("Average Wind Speed (m/s)")
     plt.ylabel("Average Departure Delay (min)")
-    plt.title("Correlation: Wind Speed vs Flight Delay per Airline")
+    plt.title("Wind vs Delay for Top 10 Airlines")
 
     plt.tight_layout()
-    plt.savefig("Evas folder/wind_vs_delay_per_airline.png")
+    plt.savefig("Evas folder/wind_vs_delay_top10.png")
     plt.close()
 
 
@@ -236,8 +241,8 @@ def main():
 
     plot_daynight_delay(computed_dict)
 
-    airline_stats = get_airline_wind_delay()
-    plot_wind_vs_delay_per_airline(airline_stats)
+    airline_stats = get_airline_wind_delay_top10()
+    plot_wind_vs_delay_top10(airline_stats)
 
 
 if __name__ == "__main__":
