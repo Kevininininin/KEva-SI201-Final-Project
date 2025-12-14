@@ -14,7 +14,7 @@ def get_avg_delay_by_session():
     """
 
     # Connect DB
-    conn = sqlite3.connect("Database/final_project.db")
+    conn = sqlite3.connect("Database/final_project_2.db")
     cur = conn.cursor()
 
     # Query all needed fields in one go
@@ -63,7 +63,7 @@ def get_avg_delay_by_session():
 
 def add_weather_to_avg_delay(avg_delay_dict):
     # Connect DB
-    conn = sqlite3.connect("Database/final_project.db")
+    conn = sqlite3.connect("Database/final_project_2.db")
     cur = conn.cursor()
 
     # Query weather_sessions table

@@ -2,37 +2,37 @@ Flight Delay Summary by Weather Session
 This file summarizes average flight delays along with wind speed and humidity for flights departing from JFK Airport in New York City.
 
 2025_Dec_2_Night:
-  Avg delay is 23 min
+  Avg delay is 24 min
   Wind speed is 23.0 m/s
   Humidity is 85.0%
 
 2025_Dec_3_Afternoon:
-  Avg delay is 29 min
+  Avg delay is 28 min
   Wind speed is 9.0 m/s
   Humidity is 42.0%
 
 2025_Dec_3_Morning:
-  Avg delay is 24 min
+  Avg delay is 22 min
   Wind speed is 10.0 m/s
   Humidity is 61.0%
 
 2025_Dec_4_Night:
-  Avg delay is 35 min
+  Avg delay is 27 min
   Wind speed is 29.0 m/s
   Humidity is 34.0%
 
 2025_Dec_5_Noon:
-  Avg delay is 21 min
+  Avg delay is 29 min
   Wind speed is 13.0 m/s
   Humidity is 44.0%
 
 2025_Dec_6_Midnight:
-  Avg delay is 12 min
+  Avg delay is 8 min
   Wind speed is 4.0 m/s
   Humidity is 66.0%
 
 2025_Dec_6_Noon:
-  Avg delay is 24 min
+  Avg delay is 25 min
   Wind speed is 7.0 m/s
   Humidity is 70.0%
 
