@@ -1,0 +1,4 @@
+Average Flight Delay: Day vs Night
+----------------------------------
+Day: 26.00 minutes
+Night: 19.67 minutes

@@ -168,8 +168,18 @@ def get_airline_wind_delay_top10():
     return sorted_top10
 
 # ========== WRITING INTO FILE ==========
+
+def write_daynight_summary(computed_dict):
+    with open("Evas folder/daynight_summary.txt", "w") as f:
+        f.write("Average Flight Delay: Day vs Night\n")
+        f.write("----------------------------------\n")
+
+        for label, value in computed_dict.items():
+            f.write(f"{label}: {value:.2f} minutes\n")
+
+
 def write_airline_summary(airline_stats):
-    with open("Evas folder/airline_weather_summary.txt", "w") as f:
+    with open("Evas folder/airline_summary.txt", "w") as f:
         f.write("Airline Weather & Delay Summary\n")
         f.write("This file summarizes average flight delays along with wind speed per airline " "\n\n")
 
@@ -253,10 +263,14 @@ def main():
     computed_dict=compute_daynight_avg(avg_delay_enriched)
 
     plot_daynight_delay(computed_dict)
+    # print(computed_dict)
 
     airline_stats = get_airline_wind_delay_top10()
     plot_wind_vs_delay_top10(airline_stats)
+    write_daynight_summary(computed_dict)
     write_airline_summary(airline_stats)
+
+
 
 if __name__ == "__main__":
     main()
