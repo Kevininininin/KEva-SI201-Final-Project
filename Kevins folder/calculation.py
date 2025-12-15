@@ -138,7 +138,7 @@ def plot_delay_vs_wind(enriched_dict):
 
     # Create scatter plot
     plt.figure()
-    plt.scatter(wind_speeds, avg_delays, color="red")
+    plt.scatter(wind_speeds, avg_delays, color="navy")
 
     # Add labels and title
     plt.xlabel("Wind Speed (m/s)")
@@ -173,7 +173,7 @@ def plot_delay_vs_humidity(enriched_dict):
 
     # Create scatter plot
     plt.figure()
-    plt.scatter(humidities, avg_delays, color="green")
+    plt.scatter(humidities, avg_delays, color="gold")
 
     # Add labels and title
     plt.xlabel("Humidity (%)")

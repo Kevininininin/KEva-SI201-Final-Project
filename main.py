@@ -3,111 +3,60 @@
 # E-mail: kevinwuu@umich.edu, evapark@umich.edu
 # AI disclosure: TBD
 
-
 import json
-import os
+
+def debug_print_flights(session_name, start_flight_num, end_flight_num):
+    file_path = f"aviation_json_raw_data/flights_{session_name}.json"
+
+    with open(file_path, "r") as f:
+        flight_json = json.load(f)
+
+    all_flights = flight_json.get("data", [])
+    total_flights = len(all_flights)
+    print(f"Loaded {total_flights} flights from {file_path}\n")
+
+    start_index = start_flight_num - 1
+
+    end_index = min(end_flight_num, total_flights)
 
 
-def load_json(filepath):
-    """
-    Load a JSON file and return the parsed data.
-    """
-    try:
-        with open(filepath, "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print(f"[ERROR] File not found: {filepath}")
-        return None
-    except json.JSONDecodeError:
-        print(f"[ERROR] JSON decode error in file: {filepath}")
-        return None
+    print(f"Printing Flight {start_index + 1} through Flight {end_index}\n")
 
+    for i in range(start_index, end_index):
+        flight = all_flights[i]
 
-def display_weather(filename):
-    """
-    Load and display weather information from a JSON file stored in weather_json_raw_data/.
-    
-    Expected structure:
-    data["location"]["name"]
-    data["location"]["localtime"]
-    data["current"]["wind_speed"], etc.
-    """
+        airline_info = flight.get("airline", {})
+        airline_name = airline_info.get("name", "Unknown")
 
-    filepath = os.path.join("weather_json_raw_data", filename)
+        flight_info = flight.get("flight", {})
+        flight_iata = flight_info.get("iata", "Unknown")
 
-    weather = load_json(filepath)
-    if not weather:
-        print("[ERROR] Could not load weather data.")
-        return
+        departure_info = flight.get("departure", {})
+        arrival_info = flight.get("arrival", {})
 
-    location = weather.get("location", {})
-    current = weather.get("current", {})
+        departure_iata = departure_info.get("iata", "Unknown")
+        arrival_iata = arrival_info.get("iata", "Unknown")
 
-    print("\n===== WEATHER DATA =====")
-    print(f"City: {location.get('name', 'N/A')}")
-    print(f"Local time: {location.get('localtime', 'N/A')}")
-    print(f"Wind speed: {current.get('wind_speed', 'N/A')}")
-    print(f"Pressure: {current.get('pressure', 'N/A')}")
-    print(f"Precipitation: {current.get('precip', 'N/A')}")
-    print(f"Humidity: {current.get('humidity', 'N/A')}")
-    print(f"Cloudcover: {current.get('cloudcover', 'N/A')}")
-    print(f"Visibility: {current.get('visibility', 'N/A')}")
-    print("========================\n")
+        scheduled_time = departure_info.get("scheduled", "Unknown")
 
+        delay = departure_info.get("delay")
+        delay_value = delay if delay is not None else 0
 
-def display_flights(filename, max_flights=5):
-    filepath = os.path.join("aviation_json_raw_data", filename)
-
-    data = load_json(filepath)
-    if not data:
-        print("[ERROR] Could not load flight data.")
-        return
-
-    flights = data.get("data", [])
-    if not flights:
-        print("[INFO] No flights in this file.")
-        return
-
-    print("\n=== FLIGHT DATA (W/ Departure Delay) ===")
-
-    shown = 0  # count how many printed
-    
-    for flight in flights:
-        # Stop when we've printed enough
-        if shown >= max_flights:
-            break
-
-        flight_number = flight.get("flight", {}).get("iata", "N/A")
-        delay = flight.get("departure", {}).get("delay", None)
-
-        # Skip flights with no departure delay
-        if delay is None:
-            continue
-
-        shown += 1
-
-        print(f"\nFlight {shown}")
-        print(f"Flight number: {flight_number}")
-        print(f"Delay (departure): {delay}")
-
-    if shown == 0:
-        print("\n[INFO] No delayed flights found.")
-
-    print("\n=======================\n")
-
+        print(f"Flight {i + 1}")
+        print(f"    Airline: {airline_name}")
+        print(f"    Flight IATA: {flight_iata}")
+        print(f"    Destination: {departure_iata} -> {arrival_iata}")
+        print(f"    Scheduled: {scheduled_time}")
+        print(f"    Delay: {delay_value}")
+        print()
 
 
 
 def main():
-    display_weather("weather_2025_Dec_2_Night.json")
-    # display_flights(filename = "flights_2025_Dec_2_Night.json", max_flights = 5)
-
-    display_weather("weather_2025_Dec_3_Morning.json")
-    # display_flights(filename = "flights_2025_Dec_3_Morning.json", max_flights = 5)
-
-    display_weather("weather_2025_Dec_3_Afternoon.json")
-    # display_flights(filename = "flights_2025_Dec_3_Afternoon.json", max_flights = 5)
-
+    session_name = "2025_Dec_2_Night"
+    start = 0
+    end = 10
+    debug_print_flights(session_name, start, end)
 
 if __name__ == "__main__":
     main()
