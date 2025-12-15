@@ -246,54 +246,54 @@ def insert_flight_records(flight_list, weather_id, database_dir):
 
 
 
-# def main():
-#     database_dir = "Database/final_project_demo.db"
+def main():
+    database_dir = "Database/final_project_demo.db"
 
-#     create_database(database_dir)
+    create_database(database_dir)
 
-#     # Configuration
-#     num_sessions = 5 # <<-- How many API calls to make to Weatherstack and Aviationstack
-#     flight_offset_step = 35 # <<-- Aviationstack over-fetch limit (only insert up to 25 valid entries)
+    # Configuration
+    num_sessions = 5 # <<-- How many API calls to make to Weatherstack and Aviationstack
+    flight_offset_step = 35 # <<-- Aviationstack over-fetch limit (only insert up to 25 valid entries)
     
-#     current_offset = 0
+    current_offset = 0
 
-#     print("Starting Program...")
-#     print("-----------------------------------")
+    print("Starting Program...")
+    print("-----------------------------------")
 
-#     # STEP 3: main loop
-#     for session_index in range(num_sessions):
-#         print(f"--- Processing session {session_index + 1} of {num_sessions} ---")
+    # STEP 3: main loop
+    for session_index in range(num_sessions):
+        print(f"--- Processing session {session_index + 1} of {num_sessions} ---")
 
-#         # WEATHER API call & insert to .db
-#         weather_data = fetch_weather_data()
-#         if weather_data is None:
-#             print("Weather data fetch encountered API Error.\n PROGRAM TERMINATED")
-#             break
-#         else:
-#             print("Weather data fetched.")
+        # WEATHER API call & insert to .db
+        weather_data = fetch_weather_data()
+        if weather_data is None:
+            print("Weather data fetch encountered API Error.\n PROGRAM TERMINATED")
+            break
+        else:
+            print("Weather data fetched.")
 
-#         weather_id = insert_weather_session(weather_data, database_dir)
-#         print(f"Weather session inserted with ID: {weather_id}")
+        weather_id = insert_weather_session(weather_data, database_dir)
+        print(f"Weather session inserted with ID: {weather_id}")
 
-#         # FLIGHTS API call & insert to .db
-#         flight_list = fetch_flight_data(current_offset)
-#         print(f"Fetched {len(flight_list)} valid flight records, API call offset = {current_offset}")
+        # FLIGHTS API call & insert to .db
+        flight_list = fetch_flight_data(current_offset)
+        print(f"Fetched {len(flight_list)} valid flight records, API call offset = {current_offset}")
 
-#         insert_flight_records(flight_list, weather_id, database_dir)
-#         print("Flight records inserted successfully.")
+        insert_flight_records(flight_list, weather_id, database_dir)
+        print("Flight records inserted successfully.")
 
-#         # OFFSET UPDATE
-#         current_offset += flight_offset_step
+        # OFFSET UPDATE
+        current_offset += flight_offset_step
 
-#         print()
+        print()
 
-#         # Wait to avoid rapid API call error
-#         time.sleep(2)
+        # Wait to avoid rapid API call error
+        time.sleep(2)
         
 
-#     # STEP 4: done
-#     print("-----------------------------------")
-#     print("Program Complete")
+    # STEP 4: done
+    print("-----------------------------------")
+    print("Program Complete")
 
 
 
@@ -302,11 +302,11 @@ def insert_flight_records(flight_list, weather_id, database_dir):
 # Comment out the previous main() and uncomment this main() below for checking specific plane info 
 # from locally stored Json files used to construct final_project_2.db
 
-def main():
-    session_name = "2025_Dec_2_Night"
-    start = 18
-    end = 19
-    debug_print_flights(session_name, start, end)
+# def main():
+#     session_name = "2025_Dec_2_Night"
+#     start = 18
+#     end = 19
+#     debug_print_flights(session_name, start, end)
 
 
 if __name__ == "__main__":
