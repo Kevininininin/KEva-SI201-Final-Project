@@ -58,10 +58,10 @@ def create_database(database_dir):
     conn = sqlite3.connect(database_dir)
     cur = conn.cursor()
 
-    # Enable foreign key constraints
+    # Enable foreign key constraints - just to be extra careful
     cur.execute("PRAGMA foreign_keys = ON;")
 
-    # Create weather_sessions table
+    # weather_sessions table
     cur.execute("""
         CREATE TABLE IF NOT EXISTS weather_sessions (
             id INTEGER PRIMARY KEY,
@@ -71,7 +71,7 @@ def create_database(database_dir):
         )
     """)
 
-    # Create airlines table
+    # airlines table
     cur.execute("""
         CREATE TABLE IF NOT EXISTS airlines (
             id INTEGER PRIMARY KEY,
@@ -79,7 +79,7 @@ def create_database(database_dir):
         )
     """)
 
-    # Create flights_data table
+    # flights_data table
     cur.execute("""
         CREATE TABLE IF NOT EXISTS flights_data (
             id INTEGER PRIMARY KEY,
@@ -94,33 +94,14 @@ def create_database(database_dir):
     conn.commit()
     conn.close()
 
-    """
-    Purpose:
-    - Insert flight records linked to a weather session
-    - Normalize airline names
-    """
-
-    # connect to database
-
-    # for each [airline_name, delay] in flight_list:
-
-        # Track time inserted. if 25 entries has already been inserted, then break.
-
-        # insert airline if not exists
-            # INSERT OR IGNORE INTO airlines(name)
-
-        # select airline_id from airlines
-
-        # insert into flights_data:
-            # weather_id
-            # airline_id
-            # departure_delay
-
-    # commit and close
-
 def fetch_weather_data():
     """
-    Call Weatherstack API and return weather values.
+    Call Weatherstack API and return weather values as a dict:
+    {
+        "wind_speed": __,
+        "humidity": __,
+        "is_day": __
+    }
     """
 
     API_URL = "http://api.weatherstack.com/current"
@@ -154,7 +135,7 @@ def fetch_weather_data():
         "is_day": is_day
     }
 
-def insert_weather_session(weather_data):
+def insert_weather_session(weather_data, database_dir):
     """
     Takes in a dict of 
     {
@@ -162,9 +143,10 @@ def insert_weather_session(weather_data):
         "humidity": __,
         "is_day": __
     }
+    And insert into database from database_dir
     """
 
-    conn = sqlite3.connect("Database/final_project.db")
+    conn = sqlite3.connect(database_dir)
     cur = conn.cursor()
 
     cur.execute("""
@@ -185,7 +167,8 @@ def insert_weather_session(weather_data):
 
 def fetch_flight_data(offset):
     """
-    Call Aviationstack API, over-fetch 50, return up to 25 valid flights.
+    Call Aviationstack API, fetch 50 (just to be safe for skipping over null airline names),
+    return up to 25 valid flights in a nested list [[airline_name, delay_value], [_,_], ...]
     """
 
     API_URL = "http://api.aviationstack.com/v1/flights"
@@ -226,8 +209,8 @@ def fetch_flight_data(offset):
 
     return valid_flights
 
-def insert_flight_records(flight_list, weather_id):
-    conn = sqlite3.connect("Database/final_project.db")
+def insert_flight_records(flight_list, weather_id, database_dir):
+    conn = sqlite3.connect(database_dir)
     cur = conn.cursor()
 
     inserted_count = 0
@@ -249,6 +232,7 @@ def insert_flight_records(flight_list, weather_id):
         """, (airline_name,))
         airline_id = cur.fetchone()[0]
 
+
         # Insert flight record
         cur.execute("""
             INSERT INTO flights_data (weather_id, airline_id, departure_delay)
@@ -262,53 +246,54 @@ def insert_flight_records(flight_list, weather_id):
 
 
 
-def main():
-    database_dir = "Database/final_project_demo.db"
+# def main():
+#     database_dir = "Database/final_project_demo.db"
 
-    create_database(database_dir)
+#     create_database(database_dir)
 
-    # Configuration
-    num_sessions = 5
-    flight_offset_step = 50
+#     # Configuration
+#     num_sessions = 5 # <<-- How many API calls to make to Weatherstack and Aviationstack
+#     flight_offset_step = 35 # <<-- Aviationstack over-fetch limit (only insert up to 25 valid entries)
     
-    current_offset = 0
+#     current_offset = 0
 
-    print("Starting Program...")
-    print("-----------------------------------")
+#     print("Starting Program...")
+#     print("-----------------------------------")
 
-    # STEP 3: main loop
-    for session_index in range(num_sessions):
+#     # STEP 3: main loop
+#     for session_index in range(num_sessions):
+#         print(f"--- Processing session {session_index + 1} of {num_sessions} ---")
 
-        print(f"--- Processing session {session_index + 1} of {num_sessions} ---")
+#         # WEATHER API call & insert to .db
+#         weather_data = fetch_weather_data()
+#         if weather_data is None:
+#             print("Weather data fetch encountered API Error.\n PROGRAM TERMINATED")
+#             break
+#         else:
+#             print("Weather data fetched.")
 
-        # WEATHER API call & insert to .db
-        weather_data = fetch_weather_data()
-        if weather_data is None:
-            print("Weather data fetch failed.\n PROGRAM TERMINATED")
-            break
-        else:
-            print("Weather data fetched.")
+#         weather_id = insert_weather_session(weather_data, database_dir)
+#         print(f"Weather session inserted with ID: {weather_id}")
 
-        weather_id = insert_weather_session(weather_data)
-        print(f"Weather session inserted with ID: {weather_id}")
+#         # FLIGHTS API call & insert to .db
+#         flight_list = fetch_flight_data(current_offset)
+#         print(f"Fetched {len(flight_list)} valid flight records, API call offset = {current_offset}")
 
-        # FLIGHTS API call & insert to .db
-        flight_list = fetch_flight_data(current_offset)
-        print(f"Fetched {len(flight_list)} valid flight records, API call offset = {current_offset}")
+#         insert_flight_records(flight_list, weather_id, database_dir)
+#         print("Flight records inserted successfully.")
 
-        insert_flight_records(flight_list, weather_id)
-        print("Flight records inserted successfully.")
+#         # OFFSET UPDATE
+#         current_offset += flight_offset_step
 
-        # OFFSET UPDATE
-        current_offset += flight_offset_step
+#         print()
 
-        print()
-        time.sleep(5)
+#         # Wait to avoid rapid API call error
+#         time.sleep(2)
         
 
-    # STEP 4: done
-    print("-----------------------------------")
-    print("Program Complete")
+#     # STEP 4: done
+#     print("-----------------------------------")
+#     print("Program Complete")
 
 
 
@@ -317,12 +302,12 @@ def main():
 # Comment out the previous main() and uncomment this main() below for checking specific plane info 
 # from locally stored Json files used to construct final_project_2.db
 
-# def main():
-#     # session_name = "2025_Dec_2_Night"
-#     # start = 0
-#     # end = 10
-#     # debug_print_flights(session_name, start, end)
-#     pass
+def main():
+    session_name = "2025_Dec_2_Night"
+    start = 18
+    end = 19
+    debug_print_flights(session_name, start, end)
+
 
 if __name__ == "__main__":
     main()
