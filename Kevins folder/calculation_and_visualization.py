@@ -7,19 +7,13 @@ import matplotlib.pyplot as plt
 
 
 # ========== CALCULATION & DATA PREP ==========
-def get_avg_delay_by_session():
-    """
-    Get data from final_project.db
-    Return dict {session_name : avg_delay}
-    """
-
-    # Connect DB
-    conn = sqlite3.connect("Database/final_project_2.db")
+def get_avg_delay_by_session(data_base_name):
+    conn = sqlite3.connect(data_base_name)
     cur = conn.cursor()
 
-    # Query all needed fields in one go
+    # Query + JOIN
     query = """
-        SELECT weather_sessions.session_name, flights_data.departure_delay
+        SELECT weather_sessions.id, flights_data.departure_delay
         FROM flights_data
         JOIN weather_sessions
         ON flights_data.weather_id = weather_sessions.id
@@ -34,8 +28,8 @@ def get_avg_delay_by_session():
 
 
     for session_name, delay in rows:
-        totals[session_name] = totals.get(session_name, 0) + delay
-        counts[session_name] = counts.get(session_name, 0) + 1
+        totals[session_name] = totals.get(session_name, 0) + delay # calc. cumulative sum for each session
+        counts[session_name] = counts.get(session_name, 0) + 1  # calc. total counts for each session
 
         if session_name not in debug_delays: # For DEBUG debug_delays
             debug_delays[session_name] = []
@@ -61,14 +55,14 @@ def get_avg_delay_by_session():
     # Return result
     return return_dict
 
-def add_weather_to_avg_delay(avg_delay_dict):
+def add_weather_to_avg_delay(avg_delay_dict, data_base_name):
     # Connect DB
-    conn = sqlite3.connect("Database/final_project_2.db")
+    conn = sqlite3.connect(data_base_name)
     cur = conn.cursor()
 
     # Query weather_sessions table
     query = """
-        SELECT session_name, wind_speed, humidity
+        SELECT id, wind_speed, humidity
         FROM weather_sessions
     """
     cur.execute(query)
@@ -97,10 +91,6 @@ def add_weather_to_avg_delay(avg_delay_dict):
 
 # ========== WRITING INTO FILE ==========
 def write_calc_summary(enriched_avg_delay_dict):
-    """
-    Write a summary .txt file to Kevins folder/.
-    """
-
     with open("Kevins folder/calc_summary.txt", "w") as file:
         # Title / header
         file.write("Flight Delay Summary by Weather Session\n")
@@ -108,12 +98,12 @@ def write_calc_summary(enriched_avg_delay_dict):
                    "humidity for flights departing from JFK Airport in New York City.\n\n")
 
         # Write each session's data
-        for session_name, data in enriched_avg_delay_dict.items():
+        for weather_id, data in enriched_avg_delay_dict.items():
             avg_delay = data["avg_delay"]
             wind_speed = data["wind_speed"]
             humidity = data["humidity"]
 
-            file.write(f"{session_name}:\n")
+            file.write(f"Weather Session ID {weather_id}:\n")
             file.write(f"  Avg delay is {avg_delay} min\n")
             file.write(f"  Wind speed is {wind_speed} m/s\n")
             file.write(f"  Humidity is {humidity}%\n\n")
@@ -154,7 +144,6 @@ def plot_delay_vs_wind(enriched_dict):
     # Close figure
     plt.close()
 
-
 # Scatter plot 2: avg delay vs. humidity
 def plot_delay_vs_humidity(enriched_dict):
     """
@@ -192,12 +181,13 @@ def plot_delay_vs_humidity(enriched_dict):
 
 # ========== MAIN FUNCTION ==========
 def main():
+    data_base_name = "Database/final_project_2.db"
+
     # Calculating delay
-    avg_delays = get_avg_delay_by_session()
+    avg_delays = get_avg_delay_by_session(data_base_name)
 
     # Collect wind and humidity data to add to avg_delays dict
-    avg_delay_enriched = add_weather_to_avg_delay(avg_delays)
-    
+    avg_delay_enriched = add_weather_to_avg_delay(avg_delays, data_base_name) 
     # for key, value in avg_delay_enriched.items():
     #     print(f"{key} : {value}")
 
