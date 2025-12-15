@@ -54,8 +54,8 @@ def debug_print_flights(session_name, start_flight_num, end_flight_num):
         print()
 
 # ========
-def create_database():
-    conn = sqlite3.connect("Database/final_project.db")
+def create_database(database_dir):
+    conn = sqlite3.connect(database_dir)
     cur = conn.cursor()
 
     # Enable foreign key constraints
@@ -263,7 +263,9 @@ def insert_flight_records(flight_list, weather_id):
 
 
 def main():
-    create_database()
+    database_dir = "Database/final_project_demo.db"
+
+    create_database(database_dir)
 
     # Configuration
     num_sessions = 5
@@ -311,7 +313,9 @@ def main():
 
 
 # ========
-# For debugging locally stored json files
+# For debugging locally stored json files:
+# Comment out the previous main() and uncomment this main() below for checking specific plane info 
+# from locally stored Json files used to construct final_project_2.db
 
 # def main():
 #     # session_name = "2025_Dec_2_Night"

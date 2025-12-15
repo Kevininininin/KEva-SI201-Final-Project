@@ -1,9 +1,8 @@
 # API: Aviationstack
-# Aviation API info gathering -> store it into DB
+# Store query locally as a json file titled aviation_{timestamp}.json
 
 import requests
 import json
-import os
 
 API_KEY = "7d02e037d5679bb3416ea07be47ede3b"
 
@@ -21,11 +20,11 @@ if "error" in data:
     print("API Error:", data["error"])
     exit()
 
-# Ensure folder exists
-os.makedirs("aviation_json_raw_data", exist_ok=True)
 
-timestamp = "2025_Dec_6_Noon"
+# ==== Edit File Timestamp Here ====
+timestamp = "2025_Dec_6_Noon_DEMO"
 OUTPUT_FILE = f"aviation_json_raw_data/flights_{timestamp}.json"
+
 
 with open(OUTPUT_FILE, "w") as f:
     json.dump(data, f, indent=2)

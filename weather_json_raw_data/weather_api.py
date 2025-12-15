@@ -1,37 +1,30 @@
 # API: Weatherstack
-# AccuWeather API info gathering -> store it into DB
+# Store query locally as a json file titled weather_{timestamp}.json
 
 import requests
 import json
-import os
 
 API_URL = "http://api.weatherstack.com/current"
 API_KEY = "c1cd07cedf6126291b51daf5ce832f8c"
 
-# Request parameters
 params = {
     "access_key": API_KEY,
-    "query": "New York",   # or "JFK Airport"
-    "units": "m"           # metric (default)
+    "query": "New York", 
+    "units": "m"  # Using metric units
 }
 
-# Call API
 response = requests.get(API_URL, params=params)
 data = response.json()
 
-# Check for API-level error
 if "error" in data:
     print("API Error:", data["error"].get("info"))
     exit()
 
-# Ensure folder exists
-os.makedirs("weather_json_raw_data", exist_ok=True)
 
-# Create timestamp-based filename
-timestamp = "2025_Dec_6_Noon"
+# ==== Edit File Timestamp Here ====
+timestamp = "2025_Dec_6_Noon_DEMO"
 OUTPUT_FILE = f"weather_json_raw_data/weather_{timestamp}.json"
 
-# Write full JSON response to file
 with open(OUTPUT_FILE, "w") as f:
     json.dump(data, f, indent=2)
 
